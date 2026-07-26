@@ -3,10 +3,7 @@ name: Update real jobs
 on:
   workflow_dispatch:
   schedule:
-    # Israel changes between UTC+2 and UTC+3. Run at both possible UTC hours
-    # and let the timezone gate continue only when local time is 09:00.
-    - cron: '0 6 * * *'
-    - cron: '0 7 * * *'
+    - cron: '17 * * * *'
 
 permissions:
   contents: write
@@ -28,27 +25,13 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Check Israel local time
-        id: clock
-        shell: bash
-        run: |
-          python - <<'PY' >> "$GITHUB_OUTPUT"
-          import os
-          from datetime import datetime
-          from zoneinfo import ZoneInfo
-          manual = os.environ.get('GITHUB_EVENT_NAME') == 'workflow_dispatch'
-          israel = datetime.now(ZoneInfo('Asia/Jerusalem'))
-          should_run = manual or israel.hour == 9
-          print(f"run={'true' if should_run else 'false'}")
-          print(f"israel_time={israel.isoformat()}")
-          PY
+      - name: Save previous snapshot
+        run: cp data/jobs.json data/jobs.previous.json 2>/dev/null || true
 
       - name: Fetch and score real jobs
-        if: steps.clock.outputs.run == 'true'
         run: python scripts/fetch_jobs.py
 
       - name: Validate output
-        if: steps.clock.outputs.run == 'true'
         run: |
           python - <<'PY'
           import json
@@ -60,11 +43,25 @@ jobs:
           print(f"Validated {len(data['jobs'])} jobs from the last 7 days")
           PY
 
+      - name: Email new-job alert
+        env:
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_THRESHOLD: '3'
+          ALERT_SCORE: '95'
+          JOBRADAR_URL: https://yonatanfeuer-art.github.io/jobradar/
+        run: python scripts/notify_new_jobs.py
+
+      - name: Remove temporary snapshot
+        run: rm -f data/jobs.previous.json
+
       - name: Commit updated data
-        if: steps.clock.outputs.run == 'true'
         run: |
           git config user.name "jobradar-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/jobs.json
-          git diff --cached --quiet || git commit -m "Daily 09:00 Israel jobs refresh"
+          git diff --cached --quiet || git commit -m "Hourly jobs refresh"
           git push
