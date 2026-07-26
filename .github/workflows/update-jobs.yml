@@ -25,9 +25,6 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Save previous snapshot
-        run: cp data/jobs.json data/jobs.previous.json 2>/dev/null || true
-
       - name: Fetch and score real jobs
         run: python scripts/fetch_jobs.py
 
@@ -42,21 +39,6 @@ jobs:
           assert data.get('summary', {}).get('window_days') == 7
           print(f"Validated {len(data['jobs'])} jobs from the last 7 days")
           PY
-
-      - name: Email new-job alert
-        env:
-          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
-          SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          EMAIL_THRESHOLD: '3'
-          ALERT_SCORE: '95'
-          JOBRADAR_URL: https://yonatanfeuer-art.github.io/jobradar/
-        run: python scripts/notify_new_jobs.py
-
-      - name: Remove temporary snapshot
-        run: rm -f data/jobs.previous.json
 
       - name: Commit updated data
         run: |
