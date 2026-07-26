@@ -1,0 +1,18 @@
+{
+  "companies": [
+    {"name":"OpenAI","ats":"greenhouse","token":"openai","enabled":true},
+    {"name":"GitLab","ats":"greenhouse","token":"gitlab","enabled":true},
+    {"name":"Databricks","ats":"greenhouse","token":"databricks","enabled":true},
+    {"name":"MongoDB","ats":"greenhouse","token":"mongodb","enabled":true},
+    {"name":"Elastic","ats":"greenhouse","token":"elastic","enabled":true},
+    {"name":"Cloudflare","ats":"greenhouse","token":"cloudflare","enabled":true},
+    {"name":"Pure Storage","ats":"greenhouse","token":"purestorage","enabled":true},
+    {"name":"AppsFlyer","ats":"greenhouse","token":"appsflyer","enabled":true},
+    {"name":"Similarweb","ats":"greenhouse","token":"similarweb","enabled":true},
+    {"name":"Gong","ats":"greenhouse","token":"gong","enabled":true},
+    {"name":"HiBob","ats":"greenhouse","token":"hibob","enabled":true},
+    {"name":"Redis","ats":"greenhouse","token":"redis","enabled":true},
+    {"name":"DriveNets","ats":"greenhouse","token":"drivenets","enabled":true},
+    {"name":"HashiCorp","ats":"greenhouse","token":"hashicorp","enabled":true}
+  ]
+}

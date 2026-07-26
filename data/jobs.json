@@ -1,0 +1,8 @@
+{
+  "generated_at": "2026-07-26T00:00:00Z",
+  "jobs": [
+    {"id":"demo-1","company":"Microsoft","title":"Enterprise Account Executive","location":"Israel","posted_at":"2026-07-26T08:00:00Z","url":"https://careers.microsoft.com/","score":96,"israel":true,"tags":["Enterprise","Sales","C-Level"],"reason":"תפקיד מכירות Enterprise עם מחזורי מכירה מורכבים ועבודה מול הנהלות."},
+    {"id":"demo-2","company":"IBM","title":"Client Partner","location":"Petah Tikva, Israel","posted_at":"2026-07-25T08:00:00Z","url":"https://www.ibm.com/careers","score":91,"israel":true,"tags":["Strategic Accounts","Sales"],"reason":"מתאים לניסיון בניהול לקוחות אסטרטגיים ובהובלת עסקאות ארוכות."},
+    {"id":"demo-3","company":"NICE","title":"Strategic Account Manager","location":"Ra'anana, Israel","posted_at":"2026-07-23T08:00:00Z","url":"https://www.nice.com/careers","score":88,"israel":true,"tags":["Account Management","Enterprise"],"reason":"שילוב של הרחבת פעילות בתוך לקוחות קיימים ומכירה עסקית."}
+  ]
+}
