@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-26T13:31:02.819238+00:00",
+  "generated_at": "2026-07-26T13:52:02.523746+00:00",
   "jobs": [
     {
       "id": "gr-74e3d4ff6826c4c680",
       "company": "MongoDB",
       "title": "Enterprise Account Executive (Cyber)",
       "location": "Tel Aviv",
-      "posted_at": "2026-07-21T10:26:00-04:00",
+      "posted_at": "2026-07-21T14:26:00+00:00",
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7628750",
       "score": 99,
       "israel": true,
@@ -25,7 +25,7 @@
       "company": "MongoDB",
       "title": "Enterprise Account Executive, Growth",
       "location": "Israel",
-      "posted_at": "2026-07-21T10:26:00-04:00",
+      "posted_at": "2026-07-21T14:26:00+00:00",
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7996805",
       "score": 99,
       "israel": true,
@@ -44,7 +44,7 @@
       "company": "MongoDB",
       "title": "Enterprise Account Executive, Growth (Digital Native)",
       "location": "Tel Aviv",
-      "posted_at": "2026-07-21T10:26:00-04:00",
+      "posted_at": "2026-07-21T14:26:00+00:00",
       "url": "https://www.mongodb.com/careers/job/?gh_jid=6640101",
       "score": 99,
       "israel": true,
@@ -63,7 +63,7 @@
       "company": "MongoDB",
       "title": "Enterprise Account Executive, Growth (FSI)",
       "location": "Tel Aviv",
-      "posted_at": "2026-07-21T10:26:00-04:00",
+      "posted_at": "2026-07-21T14:26:00+00:00",
       "url": "https://www.mongodb.com/careers/job/?gh_jid=6601414",
       "score": 99,
       "israel": true,
@@ -75,152 +75,6 @@
         "Senior"
       ],
       "reason": "ניהול ומכירת Enterprise ללקוחות אסטרטגיים · עבודה מול הנהלות ומקבלי החלטות",
-      "source": "greenhouse"
-    },
-    {
-      "id": "gr-d42645870c1aaf5ba1",
-      "company": "Taboola",
-      "title": "Technical Account Manager- Temp",
-      "location": "Tel Aviv, Israel",
-      "posted_at": "2026-07-14T07:47:03-04:00",
-      "url": "https://www.taboola.com/careers/job/8059153?gh_jid=8059153",
-      "score": 87,
-      "israel": true,
-      "tags": [
-        "Strategic Accounts",
-        "Account Management",
-        "Partnerships",
-        "Technology",
-        "Expansion"
-      ],
-      "reason": "ניהול ומכירת Enterprise ללקוחות אסטרטגיים · הרחבת פעילות בתוך לקוחות קיימים",
-      "source": "greenhouse"
-    },
-    {
-      "id": "gr-64b47869c3fc019f03",
-      "company": "Taboola",
-      "title": "Programmatic Account Manager- Temporary position",
-      "location": "Tel Aviv, Israel",
-      "posted_at": "2026-07-12T08:25:03-04:00",
-      "url": "https://www.taboola.com/careers/job/7955535?gh_jid=7955535",
-      "score": 87,
-      "israel": true,
-      "tags": [
-        "Strategic Accounts",
-        "Account Management",
-        "Partnerships",
-        "Technology",
-        "Expansion"
-      ],
-      "reason": "ניהול ומכירת Enterprise ללקוחות אסטרטגיים · הרחבת פעילות בתוך לקוחות קיימים",
-      "source": "greenhouse"
-    },
-    {
-      "id": "gr-7b46e76fd9e2cee4c2",
-      "company": "Taboola",
-      "title": "Programmatic Account Manager",
-      "location": "Tel Aviv, Israel",
-      "posted_at": "2026-06-29T02:23:37-04:00",
-      "url": "https://www.taboola.com/careers/job/8009550?gh_jid=8009550",
-      "score": 87,
-      "israel": true,
-      "tags": [
-        "Strategic Accounts",
-        "Account Management",
-        "Partnerships",
-        "Technology",
-        "Expansion"
-      ],
-      "reason": "ניהול ומכירת Enterprise ללקוחות אסטרטגיים · הרחבת פעילות בתוך לקוחות קיימים",
-      "source": "greenhouse"
-    },
-    {
-      "id": "gr-3dade191038ff4a0a0",
-      "company": "AppsFlyer",
-      "title": "Product Marketing Manager, Partnerships- Maternity leave cover",
-      "location": "Herzliya",
-      "posted_at": "2026-06-07T05:26:34-04:00",
-      "url": "https://careers.appsflyer.com/jobs/position/8557874002?gh_jid=8557874002",
-      "score": 85,
-      "israel": true,
-      "tags": [
-        "Enterprise",
-        "Partnerships",
-        "Senior",
-        "Technology",
-        "Expansion"
-      ],
-      "reason": "ניהול ומכירת Enterprise ללקוחות אסטרטגיים · הרחבת פעילות בתוך לקוחות קיימים",
-      "source": "greenhouse"
-    },
-    {
-      "id": "gr-1dae1c146d8725683a",
-      "company": "Taboola",
-      "title": "Advertiser Account Manager (Domestic Market)- Maternity leave replacement",
-      "location": "Tel Aviv, Israel",
-      "posted_at": "2026-07-09T13:49:02-04:00",
-      "url": "https://www.taboola.com/careers/job/8030531?gh_jid=8030531",
-      "score": 84,
-      "israel": true,
-      "tags": [
-        "Enterprise",
-        "Account Management",
-        "Partnerships",
-        "Technology"
-      ],
-      "reason": "ניהול ומכירת Enterprise ללקוחות אסטרטגיים",
-      "source": "greenhouse"
-    },
-    {
-      "id": "gr-22de91b739009e9357",
-      "company": "Similarweb",
-      "title": "Sales Manager",
-      "location": "Tel Aviv-Yafo, Israel",
-      "posted_at": "2026-05-05T09:51:19-04:00",
-      "url": "https://job-boards.greenhouse.io/similarweb/jobs/7894254",
-      "score": 76,
-      "israel": true,
-      "tags": [
-        "Strategic Accounts",
-        "Regional",
-        "C-Level",
-        "Technology"
-      ],
-      "reason": "ניהול ומכירת Enterprise ללקוחות אסטרטגיים · עבודה מול הנהלות ומקבלי החלטות",
-      "source": "greenhouse"
-    },
-    {
-      "id": "gr-3ce4f92c47de46be98",
-      "company": "AppsFlyer",
-      "title": "Product Partnerships Manager",
-      "location": "Herzliya",
-      "posted_at": "2026-04-19T04:58:25-04:00",
-      "url": "https://careers.appsflyer.com/jobs/position/8509670002?gh_jid=8509670002",
-      "score": 72,
-      "israel": true,
-      "tags": [
-        "Strategic Accounts",
-        "Partnerships",
-        "Technology"
-      ],
-      "reason": "ניהול ומכירת Enterprise ללקוחות אסטרטגיים",
-      "source": "greenhouse"
-    },
-    {
-      "id": "gr-0b7b2370e488f9bf88",
-      "company": "Cybereason",
-      "title": "Enterpise Account Manager",
-      "location": "Japan",
-      "posted_at": "2026-03-25T23:01:29-04:00",
-      "url": "http://jobs.cybereason.com/details?gh_jid=7756258",
-      "score": 65,
-      "israel": true,
-      "tags": [
-        "Account Management",
-        "C-Level",
-        "Technology"
-      ],
-      "reason": "עבודה מול הנהלות ומקבלי החלטות",
       "source": "greenhouse"
     }
   ],
@@ -271,13 +125,13 @@
       "company": "AppsFlyer",
       "source": "greenhouse",
       "ok": true,
-      "matches": 2
+      "matches": 0
     },
     {
       "company": "Similarweb",
       "source": "greenhouse",
       "ok": true,
-      "matches": 1
+      "matches": 0
     },
     {
       "company": "Gong",
@@ -319,7 +173,7 @@
       "company": "Cybereason",
       "source": "greenhouse",
       "ok": true,
-      "matches": 1
+      "matches": 0
     },
     {
       "company": "WalkMe",
@@ -361,7 +215,7 @@
       "company": "Taboola",
       "source": "greenhouse",
       "ok": true,
-      "matches": 4
+      "matches": 0
     },
     {
       "company": "Outbrain",
@@ -452,11 +306,47 @@
       "source": "ashby",
       "ok": true,
       "matches": 0
+    },
+    {
+      "company": "LinkedIn",
+      "source": "public-search",
+      "ok": true,
+      "matches": 0,
+      "errors": 0
+    },
+    {
+      "company": "AllJobs",
+      "source": "public-search",
+      "ok": true,
+      "matches": 0,
+      "errors": 0
+    },
+    {
+      "company": "JobMaster",
+      "source": "public-search",
+      "ok": true,
+      "matches": 0,
+      "errors": 0
+    },
+    {
+      "company": "Drushim",
+      "source": "public-search",
+      "ok": true,
+      "matches": 0,
+      "errors": 0
+    },
+    {
+      "company": "Career site",
+      "source": "public-search",
+      "ok": true,
+      "matches": 0,
+      "errors": 0
     }
   ],
   "summary": {
-    "jobs": 12,
-    "sources_ok": 22,
-    "sources_failed": 16
+    "jobs": 4,
+    "sources_ok": 27,
+    "sources_failed": 16,
+    "window_days": 7
   }
 }
