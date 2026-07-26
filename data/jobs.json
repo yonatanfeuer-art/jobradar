@@ -1,10 +1,462 @@
 {
-  "generated_at": null,
-  "jobs": [],
-  "source_status": [],
+  "generated_at": "2026-07-26T13:31:02.819238+00:00",
+  "jobs": [
+    {
+      "id": "gr-74e3d4ff6826c4c680",
+      "company": "MongoDB",
+      "title": "Enterprise Account Executive (Cyber)",
+      "location": "Tel Aviv",
+      "posted_at": "2026-07-21T10:26:00-04:00",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7628750",
+      "score": 99,
+      "israel": true,
+      "tags": [
+        "Enterprise",
+        "Strategic Accounts",
+        "Account Executive",
+        "Partnerships",
+        "Regional"
+      ],
+      "reason": "ניהול ומכירת Enterprise ללקוחות אסטרטגיים · עבודה מול הנהלות ומקבלי החלטות",
+      "source": "greenhouse"
+    },
+    {
+      "id": "gr-34dfb72c6160492c1e",
+      "company": "MongoDB",
+      "title": "Enterprise Account Executive, Growth",
+      "location": "Israel",
+      "posted_at": "2026-07-21T10:26:00-04:00",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7996805",
+      "score": 99,
+      "israel": true,
+      "tags": [
+        "Enterprise",
+        "Strategic Accounts",
+        "Account Executive",
+        "Key Accounts",
+        "Partnerships"
+      ],
+      "reason": "ניהול ומכירת Enterprise ללקוחות אסטרטגיים · עבודה מול הנהלות ומקבלי החלטות",
+      "source": "greenhouse"
+    },
+    {
+      "id": "gr-c96e983ed586d49da2",
+      "company": "MongoDB",
+      "title": "Enterprise Account Executive, Growth (Digital Native)",
+      "location": "Tel Aviv",
+      "posted_at": "2026-07-21T10:26:00-04:00",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=6640101",
+      "score": 99,
+      "israel": true,
+      "tags": [
+        "Enterprise",
+        "Strategic Accounts",
+        "Account Executive",
+        "Key Accounts",
+        "Partnerships"
+      ],
+      "reason": "ניהול ומכירת Enterprise ללקוחות אסטרטגיים · עבודה מול הנהלות ומקבלי החלטות",
+      "source": "greenhouse"
+    },
+    {
+      "id": "gr-05ce09553aee680bc1",
+      "company": "MongoDB",
+      "title": "Enterprise Account Executive, Growth (FSI)",
+      "location": "Tel Aviv",
+      "posted_at": "2026-07-21T10:26:00-04:00",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=6601414",
+      "score": 99,
+      "israel": true,
+      "tags": [
+        "Enterprise",
+        "Strategic Accounts",
+        "Account Executive",
+        "Regional",
+        "Senior"
+      ],
+      "reason": "ניהול ומכירת Enterprise ללקוחות אסטרטגיים · עבודה מול הנהלות ומקבלי החלטות",
+      "source": "greenhouse"
+    },
+    {
+      "id": "gr-d42645870c1aaf5ba1",
+      "company": "Taboola",
+      "title": "Technical Account Manager- Temp",
+      "location": "Tel Aviv, Israel",
+      "posted_at": "2026-07-14T07:47:03-04:00",
+      "url": "https://www.taboola.com/careers/job/8059153?gh_jid=8059153",
+      "score": 87,
+      "israel": true,
+      "tags": [
+        "Strategic Accounts",
+        "Account Management",
+        "Partnerships",
+        "Technology",
+        "Expansion"
+      ],
+      "reason": "ניהול ומכירת Enterprise ללקוחות אסטרטגיים · הרחבת פעילות בתוך לקוחות קיימים",
+      "source": "greenhouse"
+    },
+    {
+      "id": "gr-64b47869c3fc019f03",
+      "company": "Taboola",
+      "title": "Programmatic Account Manager- Temporary position",
+      "location": "Tel Aviv, Israel",
+      "posted_at": "2026-07-12T08:25:03-04:00",
+      "url": "https://www.taboola.com/careers/job/7955535?gh_jid=7955535",
+      "score": 87,
+      "israel": true,
+      "tags": [
+        "Strategic Accounts",
+        "Account Management",
+        "Partnerships",
+        "Technology",
+        "Expansion"
+      ],
+      "reason": "ניהול ומכירת Enterprise ללקוחות אסטרטגיים · הרחבת פעילות בתוך לקוחות קיימים",
+      "source": "greenhouse"
+    },
+    {
+      "id": "gr-7b46e76fd9e2cee4c2",
+      "company": "Taboola",
+      "title": "Programmatic Account Manager",
+      "location": "Tel Aviv, Israel",
+      "posted_at": "2026-06-29T02:23:37-04:00",
+      "url": "https://www.taboola.com/careers/job/8009550?gh_jid=8009550",
+      "score": 87,
+      "israel": true,
+      "tags": [
+        "Strategic Accounts",
+        "Account Management",
+        "Partnerships",
+        "Technology",
+        "Expansion"
+      ],
+      "reason": "ניהול ומכירת Enterprise ללקוחות אסטרטגיים · הרחבת פעילות בתוך לקוחות קיימים",
+      "source": "greenhouse"
+    },
+    {
+      "id": "gr-3dade191038ff4a0a0",
+      "company": "AppsFlyer",
+      "title": "Product Marketing Manager, Partnerships- Maternity leave cover",
+      "location": "Herzliya",
+      "posted_at": "2026-06-07T05:26:34-04:00",
+      "url": "https://careers.appsflyer.com/jobs/position/8557874002?gh_jid=8557874002",
+      "score": 85,
+      "israel": true,
+      "tags": [
+        "Enterprise",
+        "Partnerships",
+        "Senior",
+        "Technology",
+        "Expansion"
+      ],
+      "reason": "ניהול ומכירת Enterprise ללקוחות אסטרטגיים · הרחבת פעילות בתוך לקוחות קיימים",
+      "source": "greenhouse"
+    },
+    {
+      "id": "gr-1dae1c146d8725683a",
+      "company": "Taboola",
+      "title": "Advertiser Account Manager (Domestic Market)- Maternity leave replacement",
+      "location": "Tel Aviv, Israel",
+      "posted_at": "2026-07-09T13:49:02-04:00",
+      "url": "https://www.taboola.com/careers/job/8030531?gh_jid=8030531",
+      "score": 84,
+      "israel": true,
+      "tags": [
+        "Enterprise",
+        "Account Management",
+        "Partnerships",
+        "Technology"
+      ],
+      "reason": "ניהול ומכירת Enterprise ללקוחות אסטרטגיים",
+      "source": "greenhouse"
+    },
+    {
+      "id": "gr-22de91b739009e9357",
+      "company": "Similarweb",
+      "title": "Sales Manager",
+      "location": "Tel Aviv-Yafo, Israel",
+      "posted_at": "2026-05-05T09:51:19-04:00",
+      "url": "https://job-boards.greenhouse.io/similarweb/jobs/7894254",
+      "score": 76,
+      "israel": true,
+      "tags": [
+        "Strategic Accounts",
+        "Regional",
+        "C-Level",
+        "Technology"
+      ],
+      "reason": "ניהול ומכירת Enterprise ללקוחות אסטרטגיים · עבודה מול הנהלות ומקבלי החלטות",
+      "source": "greenhouse"
+    },
+    {
+      "id": "gr-3ce4f92c47de46be98",
+      "company": "AppsFlyer",
+      "title": "Product Partnerships Manager",
+      "location": "Herzliya",
+      "posted_at": "2026-04-19T04:58:25-04:00",
+      "url": "https://careers.appsflyer.com/jobs/position/8509670002?gh_jid=8509670002",
+      "score": 72,
+      "israel": true,
+      "tags": [
+        "Strategic Accounts",
+        "Partnerships",
+        "Technology"
+      ],
+      "reason": "ניהול ומכירת Enterprise ללקוחות אסטרטגיים",
+      "source": "greenhouse"
+    },
+    {
+      "id": "gr-0b7b2370e488f9bf88",
+      "company": "Cybereason",
+      "title": "Enterpise Account Manager",
+      "location": "Japan",
+      "posted_at": "2026-03-25T23:01:29-04:00",
+      "url": "http://jobs.cybereason.com/details?gh_jid=7756258",
+      "score": 65,
+      "israel": true,
+      "tags": [
+        "Account Management",
+        "C-Level",
+        "Technology"
+      ],
+      "reason": "עבודה מול הנהלות ומקבלי החלטות",
+      "source": "greenhouse"
+    }
+  ],
+  "source_status": [
+    {
+      "company": "OpenAI",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "GitLab",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Databricks",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "MongoDB",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 4
+    },
+    {
+      "company": "Elastic",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Cloudflare",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Pure Storage",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "AppsFlyer",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 2
+    },
+    {
+      "company": "Similarweb",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 1
+    },
+    {
+      "company": "Gong",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "HiBob",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "Redis",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "DriveNets",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "HashiCorp",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "Wix",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "Cybereason",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 1
+    },
+    {
+      "company": "WalkMe",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "Lightricks",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Via",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Melio",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Forter",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Riskified",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Taboola",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 4
+    },
+    {
+      "company": "Outbrain",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "Aqua Security",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "SentinelOne",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "BigPanda",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "Yotpo",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Papaya Global",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "Guesty",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "Fiverr",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "Tipalti",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "Navan",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Deel",
+      "source": "ashby",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Ramp",
+      "source": "ashby",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Notion",
+      "source": "ashby",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Linear",
+      "source": "ashby",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Vanta",
+      "source": "ashby",
+      "ok": true,
+      "matches": 0
+    }
+  ],
   "summary": {
-    "jobs": 0,
-    "sources_ok": 0,
-    "sources_failed": 0
+    "jobs": 12,
+    "sources_ok": 22,
+    "sources_failed": 16
   }
 }
