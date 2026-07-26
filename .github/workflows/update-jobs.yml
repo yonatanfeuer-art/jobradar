@@ -1,24 +1,48 @@
-name: Update jobs
+name: Update real jobs
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 4 * * *'
+    - cron: '17 */3 * * *'
+
 permissions:
   contents: write
+
+concurrency:
+  group: jobradar-update
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Fetch jobs
+
+      - name: Fetch and score real jobs
         run: python scripts/fetch_jobs.py
-      - name: Commit data
+
+      - name: Validate output
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path('data/jobs.json').read_text(encoding='utf-8'))
+          assert isinstance(data.get('jobs'), list)
+          assert data.get('generated_at')
+          print(f"Validated {len(data['jobs'])} jobs")
+          PY
+
+      - name: Commit updated data
         run: |
           git config user.name "jobradar-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/jobs.json
-          git diff --cached --quiet || git commit -m "Update jobs"
+          git diff --cached --quiet || git commit -m "Update real jobs"
           git push
