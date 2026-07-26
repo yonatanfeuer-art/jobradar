@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>JobRadar — משרות Sales בישראל</title>
+  <title>JobRadar — משרות Enterprise Sales בישראל</title>
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
@@ -11,28 +11,43 @@
     <div>
       <h1>JobRadar</h1>
       <p>מנוע חיפוש אישי למשרות Enterprise Sales בישראל</p>
-      <small id="dataStatus">טוען נתונים אמיתיים...</small>
+      <small id="dataStatus">טוען נתונים...</small>
     </div>
-    <button id="refreshBtn">רענון נתונים</button>
+    <div class="header-actions">
+      <button id="refreshBtn">רענון עכשיו</button>
+      <button id="settingsBtn" class="dark-secondary">הגדרות</button>
+    </div>
   </header>
 
   <main>
+    <section id="newBanner" class="new-banner" hidden></section>
     <section class="stats" id="stats"></section>
 
     <section class="controls">
       <input id="q" type="search" placeholder="חיפוש תפקיד, חברה או תחום..." />
       <select id="company"><option value="">כל החברות</option></select>
       <select id="freshness">
-        <option value="all">כל התאריכים</option>
         <option value="1">מהיום</option>
         <option value="3">3 ימים</option>
         <option value="7" selected>7 ימים</option>
         <option value="30">30 ימים</option>
+        <option value="all">כל התאריכים</option>
       </select>
       <select id="score">
         <option value="0">כל הציונים</option>
         <option value="80">80% ומעלה</option>
         <option value="90">90% ומעלה</option>
+        <option value="95">95% ומעלה</option>
+      </select>
+      <select id="statusFilter">
+        <option value="all">כל הסטטוסים</option>
+        <option value="unread">לא נקראו</option>
+        <option value="saved">מועדפים</option>
+        <option value="planned">מתכנן להגיש</option>
+        <option value="applied">הוגש</option>
+        <option value="interview">ראיון</option>
+        <option value="offer">הצעה</option>
+        <option value="rejected">נדחה</option>
       </select>
       <label><input id="onlyIsrael" type="checkbox" checked /> ישראל בלבד</label>
       <label><input id="onlyNew" type="checkbox" /> רק חדשות</label>
@@ -40,21 +55,39 @@
 
     <section class="toolbar">
       <span id="resultCount"></span>
-      <button id="clearState" class="secondary">איפוס סימונים</button>
+      <div>
+        <button id="markAllRead" class="secondary">סמן הכול כנקרא</button>
+        <button id="showHidden" class="secondary">הצג מוסתרות</button>
+        <button id="clearState" class="secondary">איפוס סימונים</button>
+      </div>
     </section>
 
     <section id="jobs" class="jobs"></section>
     <section id="empty" class="empty" hidden>
       <h2>לא נמצאו משרות מתאימות</h2>
-      <p>הסר פילטר או המתן לעדכון האוטומטי הבא.</p>
+      <p>נסה להסיר פילטר או המתן לסריקה הבאה.</p>
     </section>
   </main>
+
+  <dialog id="settingsDialog">
+    <form method="dialog">
+      <h2>הגדרות JobRadar</h2>
+      <label class="setting-row">סף התאמה להתראה מיידית
+        <select id="alertScore"><option value="90">90%</option><option value="95" selected>95%</option><option value="98">98%</option></select>
+      </label>
+      <label class="setting-row">כמות משרות חדשות למייל
+        <select id="emailThreshold"><option value="1">כל משרה</option><option value="3" selected>3 משרות</option><option value="5">5 משרות</option></select>
+      </label>
+      <p class="hint">שליחת המייל עצמה מופעלת דרך GitHub Secrets. האתר שומר את ההעדפות בדפדפן.</p>
+      <div class="dialog-actions"><button value="cancel" class="secondary">סגור</button><button id="saveSettings" value="default">שמור</button></div>
+    </form>
+  </dialog>
 
   <template id="jobTemplate">
     <article class="job-card">
       <div class="job-main">
         <div class="company-logo"></div>
-        <div>
+        <div class="job-copy">
           <div class="badges"></div>
           <h2 class="title"></h2>
           <p class="meta"></p>
@@ -63,9 +96,16 @@
       </div>
       <div class="score-box"><strong class="score"></strong><span>התאמה</span></div>
       <div class="actions">
-        <a class="apply" target="_blank" rel="noopener">למשרה</a>
+        <a class="apply" target="_blank" rel="noopener">פתח משרה</a>
         <button class="save secondary">שמור</button>
-        <button class="applied secondary">הגשתי</button>
+        <select class="tracker" aria-label="סטטוס הגשה">
+          <option value="none">ללא סטטוס</option>
+          <option value="planned">מתכנן להגיש</option>
+          <option value="applied">הוגש</option>
+          <option value="interview">ראיון</option>
+          <option value="offer">הצעה</option>
+          <option value="rejected">נדחה</option>
+        </select>
         <button class="dismiss secondary">לא רלוונטי</button>
       </div>
     </article>
