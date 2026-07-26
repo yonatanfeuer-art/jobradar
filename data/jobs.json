@@ -1,8 +1,122 @@
 {
-  "generated_at": "2026-07-26T14:18:12.481410+00:00",
+  "generated_at": "2026-07-26T14:29:02.357402+00:00",
   "jobs": [
     {
-      "id": "gr-74e3d4ff6826c4c680",
+      "id": "li-8859daf2b0d58325cd",
+      "company": "Corporatefinanceinstitute",
+      "title": "Partnership - Overview, Types of Partners, Types of Partnerships",
+      "location": "Israel · LinkedIn",
+      "posted_at": "2026-07-26T08:01:00+00:00",
+      "url": "https://corporatefinanceinstitute.com/resources/management/partnership/",
+      "score": 47,
+      "israel": true,
+      "tags": [
+        "Partnerships"
+      ],
+      "reason": "תפקיד מכירות B2B שעשוי להתאים לניסיון שלך",
+      "source": "LinkedIn",
+      "date_confidence": "reported"
+    },
+    {
+      "id": "li-7867c3ea06c6f383f4",
+      "company": "FindLaw",
+      "title": "Types of Partnerships - FindLaw",
+      "location": "Israel · LinkedIn",
+      "posted_at": "2026-07-26T00:59:00+00:00",
+      "url": "https://www.findlaw.com/smallbusiness/incorporation-and-legal-structures/types-of-partnerships.html",
+      "score": 53,
+      "israel": true,
+      "tags": [
+        "Partnerships",
+        "C-Level"
+      ],
+      "reason": "עבודה מול הנהלות ומקבלי החלטות",
+      "source": "LinkedIn",
+      "date_confidence": "reported"
+    },
+    {
+      "id": "li-013b1d7f7889cd0a88",
+      "company": "Nolo",
+      "title": "Partnership: Definition, Types, Formation, Advantages and ... - Nolo",
+      "location": "Israel · LinkedIn",
+      "posted_at": "2026-07-25T14:07:00+00:00",
+      "url": "https://www.nolo.com/legal-encyclopedia/partnership-basics-30072.html",
+      "score": 47,
+      "israel": true,
+      "tags": [
+        "Partnerships"
+      ],
+      "reason": "תפקיד מכירות B2B שעשוי להתאים לניסיון שלך",
+      "source": "LinkedIn",
+      "date_confidence": "reported"
+    },
+    {
+      "id": "li-4cd57652f79e7f75e2",
+      "company": "Definition, Types, Advantages, & How It Works ...",
+      "title": "Partnership | Definition, Types, Advantages, & How It Works ...",
+      "location": "Israel · LinkedIn",
+      "posted_at": "2026-07-25T08:10:00+00:00",
+      "url": "https://www.britannica.com/money/partnership",
+      "score": 65,
+      "israel": true,
+      "tags": [
+        "Enterprise",
+        "Partnerships"
+      ],
+      "reason": "מכירה וניהול של לקוחות אסטרטגיים",
+      "source": "LinkedIn",
+      "date_confidence": "reported"
+    },
+    {
+      "id": "li-3e883432aa92da8856",
+      "company": "Shopify",
+      "title": "What Is a Partnership? Types, Pros, and How to Form One",
+      "location": "Israel · LinkedIn",
+      "posted_at": "2026-07-25T05:32:00+00:00",
+      "url": "https://www.shopify.com/blog/what-is-a-partnership",
+      "score": 47,
+      "israel": true,
+      "tags": [
+        "Partnerships"
+      ],
+      "reason": "תפקיד מכירות B2B שעשוי להתאים לניסיון שלך",
+      "source": "LinkedIn",
+      "date_confidence": "reported"
+    },
+    {
+      "id": "li-9c1530f1d86430669f",
+      "company": "Merriam-Webster",
+      "title": "PARTNERSHIP Definition & Meaning - Merriam-Webster",
+      "location": "Israel · LinkedIn",
+      "posted_at": "2026-07-24T23:06:00+00:00",
+      "url": "https://www.merriam-webster.com/dictionary/partnership",
+      "score": 47,
+      "israel": true,
+      "tags": [
+        "Partnerships"
+      ],
+      "reason": "תפקיד מכירות B2B שעשוי להתאים לניסיון שלך",
+      "source": "LinkedIn",
+      "date_confidence": "reported"
+    },
+    {
+      "id": "li-12886b3391f0ce914e",
+      "company": "Wikipedia",
+      "title": "Partnership - Wikipedia",
+      "location": "Israel · LinkedIn",
+      "posted_at": "2026-07-24T22:58:00+00:00",
+      "url": "https://en.wikipedia.org/wiki/Partnership",
+      "score": 47,
+      "israel": true,
+      "tags": [
+        "Partnerships"
+      ],
+      "reason": "תפקיד מכירות B2B שעשוי להתאים לניסיון שלך",
+      "source": "LinkedIn",
+      "date_confidence": "reported"
+    },
+    {
+      "id": "gr-3c9bfa17032f142cf5",
       "company": "MongoDB",
       "title": "Enterprise Account Executive (Cyber)",
       "location": "Tel Aviv",
@@ -18,10 +132,11 @@
         "Regional"
       ],
       "reason": "מכירה וניהול של לקוחות אסטרטגיים · עבודה מול הנהלות ומקבלי החלטות",
-      "source": "greenhouse"
+      "source": "Greenhouse",
+      "date_confidence": "reported"
     },
     {
-      "id": "gr-34dfb72c6160492c1e",
+      "id": "gr-03cfd8a22a35e345e0",
       "company": "MongoDB",
       "title": "Enterprise Account Executive, Growth",
       "location": "Israel",
@@ -37,10 +152,11 @@
         "Partnerships"
       ],
       "reason": "מכירה וניהול של לקוחות אסטרטגיים · עבודה מול הנהלות ומקבלי החלטות",
-      "source": "greenhouse"
+      "source": "Greenhouse",
+      "date_confidence": "reported"
     },
     {
-      "id": "gr-c96e983ed586d49da2",
+      "id": "gr-aad7650d90eaaa8ab2",
       "company": "MongoDB",
       "title": "Enterprise Account Executive, Growth (Digital Native)",
       "location": "Tel Aviv",
@@ -56,10 +172,11 @@
         "Partnerships"
       ],
       "reason": "מכירה וניהול של לקוחות אסטרטגיים · עבודה מול הנהלות ומקבלי החלטות",
-      "source": "greenhouse"
+      "source": "Greenhouse",
+      "date_confidence": "reported"
     },
     {
-      "id": "gr-05ce09553aee680bc1",
+      "id": "gr-0d2e3f475c827ca84f",
       "company": "MongoDB",
       "title": "Enterprise Account Executive, Growth (FSI)",
       "location": "Tel Aviv",
@@ -75,7 +192,8 @@
         "Senior"
       ],
       "reason": "מכירה וניהול של לקוחות אסטרטגיים · עבודה מול הנהלות ומקבלי החלטות",
-      "source": "greenhouse"
+      "source": "Greenhouse",
+      "date_confidence": "reported"
     }
   ],
   "source_status": [
@@ -311,7 +429,8 @@
       "company": "LinkedIn",
       "source": "public-search",
       "ok": true,
-      "matches": 0,
+      "matches": 7,
+      "candidates": 142,
       "errors": 0
     },
     {
@@ -319,6 +438,7 @@
       "source": "public-search",
       "ok": true,
       "matches": 0,
+      "candidates": 27,
       "errors": 0
     },
     {
@@ -326,6 +446,7 @@
       "source": "public-search",
       "ok": true,
       "matches": 0,
+      "candidates": 40,
       "errors": 0
     },
     {
@@ -333,20 +454,64 @@
       "source": "public-search",
       "ok": true,
       "matches": 0,
+      "candidates": 40,
       "errors": 0
     },
     {
-      "company": "Career site",
+      "company": "Comeet",
       "source": "public-search",
       "ok": true,
       "matches": 0,
+      "candidates": 30,
+      "errors": 0
+    },
+    {
+      "company": "Greenhouse",
+      "source": "public-search",
+      "ok": true,
+      "matches": 0,
+      "candidates": 34,
+      "errors": 0
+    },
+    {
+      "company": "Lever",
+      "source": "public-search",
+      "ok": true,
+      "matches": 0,
+      "candidates": 39,
+      "errors": 0
+    },
+    {
+      "company": "Ashby",
+      "source": "public-search",
+      "ok": true,
+      "matches": 0,
+      "candidates": 34,
+      "errors": 0
+    },
+    {
+      "company": "Workday",
+      "source": "public-search",
+      "ok": true,
+      "matches": 0,
+      "candidates": 50,
+      "errors": 0
+    },
+    {
+      "company": "SmartRecruiters",
+      "source": "public-search",
+      "ok": true,
+      "matches": 0,
+      "candidates": 47,
       "errors": 0
     }
   ],
   "summary": {
-    "jobs": 4,
-    "sources_ok": 27,
+    "jobs": 11,
+    "companies": 8,
+    "sources_ok": 32,
     "sources_failed": 16,
+    "productive_sources": 2,
     "window_days": 7
   }
 }
