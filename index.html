@@ -10,7 +10,8 @@
   <header>
     <div>
       <h1>JobRadar</h1>
-      <p>מנוע חיפוש אישי למשרות Sales בישראל</p>
+      <p>מנוע חיפוש אישי למשרות Enterprise Sales בישראל</p>
+      <small id="dataStatus">טוען נתונים אמיתיים...</small>
     </div>
     <button id="refreshBtn">רענון נתונים</button>
   </header>
@@ -19,7 +20,7 @@
     <section class="stats" id="stats"></section>
 
     <section class="controls">
-      <input id="q" type="search" placeholder="חיפוש תפקיד או חברה..." />
+      <input id="q" type="search" placeholder="חיפוש תפקיד, חברה או תחום..." />
       <select id="company"><option value="">כל החברות</option></select>
       <select id="freshness">
         <option value="all">כל התאריכים</option>
@@ -45,7 +46,7 @@
     <section id="jobs" class="jobs"></section>
     <section id="empty" class="empty" hidden>
       <h2>לא נמצאו משרות מתאימות</h2>
-      <p>הסר פילטר או המתן לעדכון הבא.</p>
+      <p>הסר פילטר או המתן לעדכון האוטומטי הבא.</p>
     </section>
   </main>
 
