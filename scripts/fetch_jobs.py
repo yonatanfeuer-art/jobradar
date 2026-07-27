@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
-"""JobRadar ingestion engine.
-
-Collects public Israel-based B2B sales roles from ATS boards and search-engine
-results. The pipeline is deliberately broad at ingestion time and ranks jobs
-later, so good roles are not silently discarded.
-"""
+"""JobRadar: collect fresh Israel-based senior B2B sales jobs."""
 from __future__ import annotations
 
 import hashlib
@@ -12,12 +7,14 @@ import html
 import json
 import re
 import sys
-import xml.etree.ElementTree as ET
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
-from urllib.parse import quote_plus, urlparse
+from urllib.parse import quote_plus
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -32,8 +29,8 @@ TARGET_TITLES = [
     r"sales manager", r"sales director", r"head of sales", r"commercial manager",
     r"commercial director", r"business development", r"partnership", r"alliances?",
     r"partner manager", r"channel manager", r"territory manager", r"regional sales",
-    r"enterprise sales", r"strategic sales", r"customer growth", r"revenue manager",
-    r"country manager", r"growth manager", r"sales lead", r"sales executive",
+    r"enterprise sales", r"strategic sales", r"country manager", r"sales executive",
+    r"go.?to.?market", r"market development", r"commercial lead", r"business manager",
     r"מנהל(?:ת)? לקוחות", r"מנהל(?:ת)? תיקי לקוחות", r"מנהל(?:ת)? מכירות",
     r"מנהל(?:ת)? פיתוח עסקי", r"מנהל(?:ת)? שותפויות", r"מנהל(?:ת)? שותפים",
     r"מנהל(?:ת)? ערוצים", r"לקוחות מפתח", r"לקוחות אסטרטגיים", r"סמנכ.?ל מכירות",
@@ -42,10 +39,16 @@ EXCLUDED_TITLES = [
     r"\bsdr\b", r"\bbdr\b", r"sales development", r"business development representative",
     r"inside sales", r"sales engineer", r"solutions? engineer", r"presales", r"pre-sales",
     r"customer success", r"customer support", r"technical support", r"technical account manager",
+    r"solution architect", r"software engineer", r"developer", r"data engineer",
     r"product marketing", r"marketing manager", r"intern", r"student", r"recruit",
-    r"representative", r"associate", r"entry level", r"junior", r"מכירות טלפוניות",
-    r"נציג(?:ת)? מכירות", r"שירות לקוחות", r"תמיכה",
+    r"representative", r"associate", r"entry level", r"junior", r"support",
+    r"מכירות טלפוניות", r"נציג(?:ת)? מכירות", r"שירות לקוחות", r"תמיכה", r"מהנדס",
 ]
+EXCLUDED_COMPANIES = {
+    "salesforce", "palo alto networks", "confluent", "denodo", "rubrik",
+    "juniper networks", "monday.com", "monday", "sentinelone", "cybereason",
+    "aqua security", "wiz", "orca security", "checkpoint", "check point",
+}
 ISRAEL_TERMS = [
     r"\bisrael\b", r"tel[ -]?aviv", r"herzliya", r"ra['’]?anana", r"petah[ -]?tikva",
     r"ramat[ -]?gan", r"bnei[ -]?brak", r"kfar[ -]?saba", r"hod[ -]?hasharon",
@@ -70,27 +73,16 @@ PREFERRED_TERMS = [
     (r"regional|global|territory", 7, "Regional"), (r"senior|principal", 6, "Senior"),
     (r"c-level|executive stakeholders?|cio|cto|vp", 6, "C-Level"),
     (r"complex sales|long sales cycle|multi.?stakeholder", 6, "Complex Sales"),
-    (r"cloud|data|ai|software|saas|infrastructure|network|cyber", 5, "Technology"),
+    (r"cloud|data|ai|software|saas|infrastructure|network|platform", 5, "Technology"),
     (r"existing accounts?|upsell|cross.?sell|expansion|farmer", 5, "Expansion"),
 ]
-SEARCH_TITLES = [
-    '"Account Executive"', '"Account Manager"', '"Strategic Account Manager"',
-    '"Enterprise Account Executive"', '"Business Development Manager"', '"Sales Manager"',
-    '"Sales Director"', '"Client Partner"', '"Key Account Manager"', '"Partnerships Manager"',
-    '"Partner Manager"', '"Commercial Manager"', '"Country Manager"', '"Sales Executive"',
-    '"מנהל לקוחות"', '"מנהל מכירות"', '"מנהל פיתוח עסקי"', '"מנהל שותפויות"',
-]
-SEARCH_SITES = [
-    ("LinkedIn", "site:linkedin.com/jobs/view"),
-    ("AllJobs", "site:alljobs.co.il"),
-    ("JobMaster", "site:jobmaster.co.il"),
-    ("Drushim", "site:drushim.co.il"),
-    ("Comeet", "site:comeet.com/jobs"),
-    ("Greenhouse", "site:boards.greenhouse.io OR site:job-boards.greenhouse.io"),
-    ("Lever", "site:jobs.lever.co"),
-    ("Ashby", "site:jobs.ashbyhq.com"),
-    ("Workday", "site:myworkdayjobs.com"),
-    ("SmartRecruiters", "site:jobs.smartrecruiters.com"),
+LINKEDIN_QUERIES = [
+    "Enterprise Account Executive", "Account Executive", "Strategic Account Manager",
+    "Key Account Manager", "Client Partner", "Business Development Manager",
+    "Regional Sales Manager", "Sales Director", "Enterprise Sales", "Sales Executive",
+    "Partnerships Manager", "Alliances Manager", "Channel Manager", "Country Manager",
+    "Commercial Manager", "Account Director", "Head of Sales", "מנהל לקוחות",
+    "מנהל מכירות", "מנהל פיתוח עסקי", "מנהל שותפויות",
 ]
 
 
@@ -98,14 +90,23 @@ def now_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
 
 
-def request_text(url: str, accept: str = "text/html,application/xhtml+xml,application/json") -> str:
-    req = Request(url, headers={
-        "User-Agent": "Mozilla/5.0 (compatible; JobRadar/5.0; +https://yonatanfeuer-art.github.io/jobradar/)",
-        "Accept": accept,
-        "Accept-Language": "he-IL,he;q=0.9,en;q=0.8",
-    })
-    with urlopen(req, timeout=40) as response:
-        return response.read().decode("utf-8", errors="replace")
+def request_text(url: str, accept: str = "text/html,application/json", retries: int = 2) -> str:
+    last: Exception | None = None
+    for attempt in range(retries + 1):
+        try:
+            req = Request(url, headers={
+                "User-Agent": "Mozilla/5.0 (compatible; JobRadar/6.0; +https://yonatanfeuer-art.github.io/jobradar/)",
+                "Accept": accept,
+                "Accept-Language": "he-IL,he;q=0.9,en;q=0.8",
+            })
+            with urlopen(req, timeout=35) as response:
+                return response.read().decode("utf-8", errors="replace")
+        except Exception as exc:
+            last = exc
+            if attempt < retries:
+                time.sleep(1.2 * (attempt + 1))
+    assert last is not None
+    raise last
 
 
 def get_json(url: str) -> Any:
@@ -138,6 +139,11 @@ def parse_date(value: Any) -> datetime | None:
 
 def is_target_role(title: str) -> bool:
     return matches(TARGET_TITLES, title) and not matches(EXCLUDED_TITLES, title)
+
+
+def is_excluded_company(company: str) -> bool:
+    name = re.sub(r"[^a-z0-9. ]+", "", clean(company).lower()).strip()
+    return any(name == blocked or blocked in name for blocked in EXCLUDED_COMPANIES)
 
 
 def is_israel(location: str, description: str = "", title: str = "") -> bool:
@@ -173,9 +179,9 @@ def score_job(title: str, location: str, description: str) -> tuple[int, list[st
 
 def normalize_job(*, source: str, company: str, external_id: str, title: str, location: str,
                   description: str, posted_at: Any, url: str, allow_unknown_date: bool = False) -> dict[str, Any] | None:
-    title, location, description, url = clean(title), clean(location), clean(description), str(url or "").strip()
-    title = re.sub(r"\s+(?:-|\||–)\s+(LinkedIn|AllJobs|JobMaster|Drushim).*$", "", title, flags=re.I)
-    if not title or not url or not is_target_role(title):
+    title, company = clean(title), clean(company)
+    location, description, url = clean(location), clean(description), str(url or "").strip()
+    if not title or not url or not is_target_role(title) or is_excluded_company(company):
         return None
     if not is_israel(location, description, title):
         return None
@@ -246,58 +252,84 @@ def fetch_smartrecruiters(company: str, token: str, _: dict[str, Any]) -> list[d
     return out
 
 
-def rss_items(query: str) -> list[dict[str, str]]:
-    url = f"https://www.bing.com/search?format=rss&setlang=en-US&q={quote_plus(query)}"
-    root = ET.fromstring(request_text(url, "application/rss+xml,text/xml"))
-    return [{child.tag: (child.text or "") for child in item} for item in root.findall("./channel/item")]
+class LinkedInCardsParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.cards: list[dict[str, str]] = []
+        self.card: dict[str, str] | None = None
+        self.field: str | None = None
+        self.depth = 0
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        data = {k: v or "" for k, v in attrs}
+        cls = data.get("class", "")
+        if tag == "li" and "jobs-search-results__list-item" in cls:
+            self.card, self.depth = {}, 1
+            return
+        if self.card is None:
+            return
+        self.depth += 1
+        if tag == "a" and "base-card__full-link" in cls:
+            self.card["url"] = data.get("href", "").split("?")[0]
+        elif tag in {"h3", "span"} and "base-search-card__title" in cls:
+            self.field = "title"
+        elif tag in {"h4", "a"} and "base-search-card__subtitle" in cls:
+            self.field = "company"
+        elif tag == "span" and "job-search-card__location" in cls:
+            self.field = "location"
+        elif tag == "time":
+            self.card["posted"] = data.get("datetime", "")
+
+    def handle_endtag(self, tag: str) -> None:
+        if self.card is None:
+            return
+        if self.field and tag in {"h3", "h4", "span", "a"}:
+            self.field = None
+        self.depth -= 1
+        if self.depth == 0:
+            if self.card.get("url") and self.card.get("title"):
+                self.cards.append(self.card)
+            self.card = None
+
+    def handle_data(self, data: str) -> None:
+        if self.card is not None and self.field:
+            self.card[self.field] = clean(f"{self.card.get(self.field, '')} {data}")
 
 
-def source_name(url: str, fallback: str) -> str:
-    host = urlparse(url).netloc.lower()
-    mapping = [("linkedin.com", "LinkedIn"), ("alljobs.co.il", "AllJobs"),
-               ("jobmaster.co.il", "JobMaster"), ("drushim.co.il", "Drushim"),
-               ("comeet.com", "Comeet"), ("greenhouse.io", "Greenhouse"),
-               ("lever.co", "Lever"), ("ashbyhq.com", "Ashby"),
-               ("myworkdayjobs.com", "Workday"), ("smartrecruiters.com", "SmartRecruiters")]
-    for needle, name in mapping:
-        if needle in host: return name
-    return fallback
+def fetch_linkedin_query(query: str) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    jobs: list[dict[str, Any]] = []
+    candidates, errors = 0, 0
+    for start in (0, 25, 50, 75):
+        url = ("https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?"
+               f"keywords={quote_plus(query)}&location={quote_plus('Israel')}&f_TPR=r604800&start={start}")
+        try:
+            parser = LinkedInCardsParser()
+            parser.feed(request_text(url))
+            if not parser.cards:
+                break
+            candidates += len(parser.cards)
+            for item in parser.cards:
+                job = normalize_job(source="LinkedIn", company=item.get("company", ""),
+                    external_id=item.get("url", ""), title=item.get("title", ""),
+                    location=item.get("location", "Israel"), description="",
+                    posted_at=item.get("posted"), url=item.get("url", ""), allow_unknown_date=True)
+                if job: jobs.append(job)
+        except Exception as exc:
+            errors += 1
+            print(f"WARNING LinkedIn {query}: {type(exc).__name__}: {exc}", file=sys.stderr)
+            break
+    return jobs, {"company": query, "source": "linkedin-guest", "ok": errors == 0,
+                  "matches": len(jobs), "candidates": candidates, "errors": errors}
 
 
-def infer_company(title: str, url: str) -> str:
-    for sep in [" - ", " | ", " at ", " ב-"]:
-        parts = title.split(sep)
-        if len(parts) > 1:
-            candidate = clean(parts[-1])
-            if 1 < len(candidate) < 70 and not matches(TARGET_TITLES, candidate):
-                return candidate
-    host = urlparse(url).netloc.replace("www.", "")
-    return host.split(".")[0].title() if host else "לא צוין"
-
-
-def fetch_public_search() -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
-    jobs, status, seen = [], [], set()
-    for label, site_query in SEARCH_SITES:
-        count, errors, candidates = 0, 0, 0
-        for title_query in SEARCH_TITLES:
-            query = f'{title_query} (Israel OR "Tel Aviv" OR ישראל OR "תל אביב") {site_query}'
-            try:
-                for item in rss_items(query):
-                    url, title = clean(item.get("link")), clean(item.get("title"))
-                    description, posted = clean(item.get("description")), item.get("pubDate")
-                    if not url or url in seen: continue
-                    seen.add(url); candidates += 1
-                    company = infer_company(title, url)
-                    job = normalize_job(source=source_name(url, label), company=company, external_id=url,
-                        title=title, location=f"Israel · {label}", description=description,
-                        posted_at=posted, url=url, allow_unknown_date=True)
-                    if job:
-                        jobs.append(job); count += 1
-            except Exception as exc:
-                errors += 1
-                print(f"WARNING search {label}: {type(exc).__name__}: {exc}", file=sys.stderr)
-        status.append({"company": label, "source": "public-search", "ok": errors < len(SEARCH_TITLES),
-                       "matches": count, "candidates": candidates, "errors": errors})
+def fetch_linkedin() -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    jobs, status = [], []
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        futures = [pool.submit(fetch_linkedin_query, query) for query in LINKEDIN_QUERIES]
+        for future in as_completed(futures):
+            found, item_status = future.result()
+            jobs.extend(found)
+            status.append(item_status)
     return jobs, status
 
 
@@ -305,26 +337,35 @@ FETCHERS = {"greenhouse": fetch_greenhouse, "lever": fetch_lever, "ashby": fetch
             "smartrecruiters": fetch_smartrecruiters}
 
 
+def fetch_company(company: dict[str, Any]) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    name, ats, token = company["name"], company["ats"], company["token"]
+    fetcher = FETCHERS.get(ats)
+    if not fetcher:
+        return [], {"company": name, "source": ats, "ok": False, "error": "unsupported ATS"}
+    try:
+        found = fetcher(name, token, company)
+        return found, {"company": name, "source": ats, "ok": True, "matches": len(found)}
+    except Exception as exc:
+        return [], {"company": name, "source": ats, "ok": False,
+                    "error": f"{type(exc).__name__}: {exc}"[:220]}
+
+
 def main() -> int:
     config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
-    all_jobs, source_status = [], []
-    for company in config.get("companies", []):
-        if not company.get("enabled", True): continue
-        name, ats, token = company["name"], company["ats"], company["token"]
-        fetcher = FETCHERS.get(ats)
-        if not fetcher:
-            source_status.append({"company": name, "source": ats, "ok": False, "error": "unsupported ATS"})
-            continue
-        try:
-            found = fetcher(name, token, company)
-            all_jobs.extend(found)
-            source_status.append({"company": name, "source": ats, "ok": True, "matches": len(found)})
-        except Exception as exc:
-            source_status.append({"company": name, "source": ats, "ok": False,
-                                  "error": f"{type(exc).__name__}: {exc}"[:220]})
+    all_jobs: list[dict[str, Any]] = []
+    source_status: list[dict[str, Any]] = []
+    companies = [c for c in config.get("companies", []) if c.get("enabled", True)]
 
-    web_jobs, web_status = fetch_public_search()
-    all_jobs.extend(web_jobs); source_status.extend(web_status)
+    with ThreadPoolExecutor(max_workers=10) as pool:
+        futures = [pool.submit(fetch_company, company) for company in companies]
+        for future in as_completed(futures):
+            found, status = future.result()
+            all_jobs.extend(found)
+            source_status.append(status)
+
+    linkedin_jobs, linkedin_status = fetch_linkedin()
+    all_jobs.extend(linkedin_jobs)
+    source_status.extend(linkedin_status)
 
     dedup: dict[str, dict[str, Any]] = {}
     for job in all_jobs:
@@ -333,17 +374,17 @@ def main() -> int:
         if not current or (job["score"], job["posted_at"]) > (current["score"], current["posted_at"]):
             dedup[key] = job
     jobs = sorted(dedup.values(), key=lambda j: (j.get("posted_at", ""), j.get("score", 0)), reverse=True)
-    companies = len({j["company"] for j in jobs})
+    company_count = len({j["company"] for j in jobs})
     productive = sum(1 for s in source_status if s.get("matches", 0) > 0)
     payload = {
         "generated_at": now_iso(), "jobs": jobs, "source_status": source_status,
-        "summary": {"jobs": len(jobs), "companies": companies,
+        "summary": {"jobs": len(jobs), "companies": company_count,
                     "sources_ok": sum(1 for s in source_status if s.get("ok")),
                     "sources_failed": sum(1 for s in source_status if not s.get("ok")),
                     "productive_sources": productive, "window_days": MAX_AGE_DAYS},
     }
     OUTPUT_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Wrote {len(jobs)} jobs across {companies} companies from the last {MAX_AGE_DAYS} days")
+    print(f"Wrote {len(jobs)} jobs across {company_count} companies from the last {MAX_AGE_DAYS} days")
     return 0
 
 
