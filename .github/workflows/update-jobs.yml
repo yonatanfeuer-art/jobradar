@@ -25,22 +25,28 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - name: Fetch and score real jobs
         run: python scripts/fetch_jobs.py
-      - name: Validate output
+      - name: Validate output and source health
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
           data = json.loads(Path('data/jobs.json').read_text(encoding='utf-8'))
-          assert isinstance(data.get('jobs'), list)
+          jobs = data.get('jobs')
+          summary = data.get('summary', {})
+          assert isinstance(jobs, list)
           assert data.get('generated_at')
-          assert data.get('summary', {}).get('window_days') == 7
-          print(f"Validated {len(data['jobs'])} jobs from the last 7 days")
+          assert summary.get('window_days') == 14
+          assert all(j.get('url','').startswith('https://') for j in jobs)
+          assert all(j.get('company') and j.get('title') for j in jobs)
+          print(f"Validated {len(jobs)} jobs | healthy={summary.get('healthy')} | LinkedIn candidates={summary.get('linkedin_candidates', 0)}")
           PY
       - name: Commit updated data
         run: |
@@ -48,4 +54,5 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add data/jobs.json
           git diff --cached --quiet || git commit -m "Hourly jobs refresh"
+          git pull --rebase origin main
           git push
