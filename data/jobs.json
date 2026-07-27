@@ -1,127 +1,12 @@
 {
-  "generated_at": "2026-07-26T21:38:33.003996+00:00",
+  "generated_at": "2026-07-27T05:32:36.488306+00:00",
   "jobs": [
-    {
-      "id": "li-7867c3ea06c6f383f4",
-      "company": "FindLaw",
-      "title": "Types of Partnerships - FindLaw",
-      "location": "Israel · LinkedIn",
-      "posted_at": "2026-07-26T00:59:00+00:00",
-      "url": "https://www.findlaw.com/smallbusiness/incorporation-and-legal-structures/types-of-partnerships.html",
-      "score": 53,
-      "israel": true,
-      "tags": [
-        "Partnerships",
-        "C-Level"
-      ],
-      "reason": "עבודה מול הנהלות ומקבלי החלטות",
-      "source": "LinkedIn",
-      "date_confidence": "reported"
-    },
-    {
-      "id": "li-4cd57652f79e7f75e2",
-      "company": "Definition, Types, Advantages, & How It Works ...",
-      "title": "Partnership | Definition, Types, Advantages, & How It Works ...",
-      "location": "Israel · LinkedIn",
-      "posted_at": "2026-07-25T08:10:00+00:00",
-      "url": "https://www.britannica.com/money/partnership",
-      "score": 65,
-      "israel": true,
-      "tags": [
-        "Enterprise",
-        "Partnerships"
-      ],
-      "reason": "מכירה וניהול של לקוחות אסטרטגיים",
-      "source": "LinkedIn",
-      "date_confidence": "reported"
-    },
-    {
-      "id": "li-8859daf2b0d58325cd",
-      "company": "Corporatefinanceinstitute",
-      "title": "Partnership - Overview, Types of Partners, Types of Partnerships",
-      "location": "Israel · LinkedIn",
-      "posted_at": "2026-07-25T05:46:00+00:00",
-      "url": "https://corporatefinanceinstitute.com/resources/management/partnership/",
-      "score": 47,
-      "israel": true,
-      "tags": [
-        "Partnerships"
-      ],
-      "reason": "תפקיד מכירות B2B שעשוי להתאים לניסיון שלך",
-      "source": "LinkedIn",
-      "date_confidence": "reported"
-    },
-    {
-      "id": "li-5700f9589614ae4268",
-      "company": "Uslawexplained",
-      "title": "The Ultimate Guide to Business Partnerships in the U.S.",
-      "location": "Israel · LinkedIn",
-      "posted_at": "2026-07-25T05:32:00+00:00",
-      "url": "https://uslawexplained.com/partnership",
-      "score": 47,
-      "israel": true,
-      "tags": [
-        "Partnerships"
-      ],
-      "reason": "תפקיד מכירות B2B שעשוי להתאים לניסיון שלך",
-      "source": "LinkedIn",
-      "date_confidence": "reported"
-    },
-    {
-      "id": "li-3e883432aa92da8856",
-      "company": "Shopify",
-      "title": "What Is a Partnership? Types, Pros, and How to Form One",
-      "location": "Israel · LinkedIn",
-      "posted_at": "2026-07-25T05:32:00+00:00",
-      "url": "https://www.shopify.com/blog/what-is-a-partnership",
-      "score": 47,
-      "israel": true,
-      "tags": [
-        "Partnerships"
-      ],
-      "reason": "תפקיד מכירות B2B שעשוי להתאים לניסיון שלך",
-      "source": "LinkedIn",
-      "date_confidence": "reported"
-    },
-    {
-      "id": "li-12886b3391f0ce914e",
-      "company": "Wikipedia",
-      "title": "Partnership - Wikipedia",
-      "location": "Israel · LinkedIn",
-      "posted_at": "2026-07-24T22:58:00+00:00",
-      "url": "https://en.wikipedia.org/wiki/Partnership",
-      "score": 47,
-      "israel": true,
-      "tags": [
-        "Partnerships"
-      ],
-      "reason": "תפקיד מכירות B2B שעשוי להתאים לניסיון שלך",
-      "source": "LinkedIn",
-      "date_confidence": "reported"
-    },
-    {
-      "id": "li-45904c276dea7a6568",
-      "company": "Strategically Build Different Kinds of ...",
-      "title": "Types of Business Partnerships - Strategically Build Different Kinds of ...",
-      "location": "Israel · LinkedIn",
-      "posted_at": "2026-07-24T16:39:00+00:00",
-      "url": "https://www.businessinitiative.org/partnership/types-of-business-partnerships/",
-      "score": 62,
-      "israel": true,
-      "tags": [
-        "Strategic Accounts",
-        "Partnerships"
-      ],
-      "reason": "מכירה וניהול של לקוחות אסטרטגיים",
-      "source": "LinkedIn",
-      "date_confidence": "reported"
-    },
     {
       "id": "gr-3c9bfa17032f142cf5",
       "company": "MongoDB",
       "title": "Enterprise Account Executive (Cyber)",
       "location": "Tel Aviv",
-      "posted_at": "2026-07-21T14:26:00+00:00",
+      "posted_at": "2026-07-27T04:32:53+00:00",
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7628750",
       "score": 99,
       "israel": true,
@@ -141,7 +26,7 @@
       "company": "MongoDB",
       "title": "Enterprise Account Executive, Growth",
       "location": "Israel",
-      "posted_at": "2026-07-21T14:26:00+00:00",
+      "posted_at": "2026-07-27T04:32:52+00:00",
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7996805",
       "score": 99,
       "israel": true,
@@ -161,7 +46,7 @@
       "company": "MongoDB",
       "title": "Enterprise Account Executive, Growth (Digital Native)",
       "location": "Tel Aviv",
-      "posted_at": "2026-07-21T14:26:00+00:00",
+      "posted_at": "2026-07-27T04:32:52+00:00",
       "url": "https://www.mongodb.com/careers/job/?gh_jid=6640101",
       "score": 99,
       "israel": true,
@@ -199,31 +84,13 @@
   ],
   "source_status": [
     {
-      "company": "OpenAI",
-      "source": "greenhouse",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
-      "company": "GitLab",
+      "company": "AppsFlyer",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
     },
     {
-      "company": "Databricks",
-      "source": "greenhouse",
-      "ok": true,
-      "matches": 0
-    },
-    {
-      "company": "MongoDB",
-      "source": "greenhouse",
-      "ok": true,
-      "matches": 4
-    },
-    {
-      "company": "Elastic",
+      "company": "Similarweb",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
@@ -235,19 +102,73 @@
       "matches": 0
     },
     {
+      "company": "GitLab",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
       "company": "Pure Storage",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
     },
     {
-      "company": "AppsFlyer",
+      "company": "Elastic",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
     },
     {
-      "company": "Similarweb",
+      "company": "Cybereason",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "MongoDB",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 4
+    },
+    {
+      "company": "Lightricks",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Databricks",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Melio",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Via",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Riskified",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Forter",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Taboola",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
@@ -265,19 +186,19 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
+      "company": "OpenAI",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "Yotpo",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
       "company": "Redis",
-      "source": "greenhouse",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
-      "company": "DriveNets",
-      "source": "greenhouse",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
-      "company": "HashiCorp",
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
@@ -289,8 +210,32 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "Cybereason",
+      "company": "HashiCorp",
       "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "DriveNets",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "Navan",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Deel",
+      "source": "ashby",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Ramp",
+      "source": "ashby",
       "ok": true,
       "matches": 0
     },
@@ -301,38 +246,20 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "Lightricks",
-      "source": "greenhouse",
+      "company": "Linear",
+      "source": "ashby",
       "ok": true,
       "matches": 0
     },
     {
-      "company": "Via",
-      "source": "greenhouse",
+      "company": "Notion",
+      "source": "ashby",
       "ok": true,
       "matches": 0
     },
     {
-      "company": "Melio",
-      "source": "greenhouse",
-      "ok": true,
-      "matches": 0
-    },
-    {
-      "company": "Forter",
-      "source": "greenhouse",
-      "ok": true,
-      "matches": 0
-    },
-    {
-      "company": "Riskified",
-      "source": "greenhouse",
-      "ok": true,
-      "matches": 0
-    },
-    {
-      "company": "Taboola",
-      "source": "greenhouse",
+      "company": "Vanta",
+      "source": "ashby",
       "ok": true,
       "matches": 0
     },
@@ -361,12 +288,6 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "Yotpo",
-      "source": "greenhouse",
-      "ok": true,
-      "matches": 0
-    },
-    {
       "company": "Papaya Global",
       "source": "greenhouse",
       "ok": false,
@@ -379,140 +300,192 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "Fiverr",
-      "source": "greenhouse",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
       "company": "Tipalti",
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "Navan",
+      "company": "Fiverr",
       "source": "greenhouse",
-      "ok": true,
-      "matches": 0
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "Deel",
-      "source": "ashby",
+      "company": "Strategic Account Manager",
+      "source": "linkedin-guest",
       "ok": true,
-      "matches": 0
-    },
-    {
-      "company": "Ramp",
-      "source": "ashby",
-      "ok": true,
-      "matches": 0
-    },
-    {
-      "company": "Notion",
-      "source": "ashby",
-      "ok": true,
-      "matches": 0
-    },
-    {
-      "company": "Linear",
-      "source": "ashby",
-      "ok": true,
-      "matches": 0
-    },
-    {
-      "company": "Vanta",
-      "source": "ashby",
-      "ok": true,
-      "matches": 0
-    },
-    {
-      "company": "LinkedIn",
-      "source": "public-search",
-      "ok": true,
-      "matches": 7,
-      "candidates": 150,
+      "matches": 0,
+      "candidates": 0,
       "errors": 0
     },
     {
-      "company": "AllJobs",
-      "source": "public-search",
+      "company": "Key Account Manager",
+      "source": "linkedin-guest",
       "ok": true,
       "matches": 0,
-      "candidates": 54,
+      "candidates": 0,
       "errors": 0
     },
     {
-      "company": "JobMaster",
-      "source": "public-search",
+      "company": "Enterprise Account Executive",
+      "source": "linkedin-guest",
       "ok": true,
       "matches": 0,
-      "candidates": 29,
+      "candidates": 0,
       "errors": 0
     },
     {
-      "company": "Drushim",
-      "source": "public-search",
+      "company": "Account Executive",
+      "source": "linkedin-guest",
       "ok": true,
       "matches": 0,
-      "candidates": 33,
+      "candidates": 0,
       "errors": 0
     },
     {
-      "company": "Comeet",
-      "source": "public-search",
+      "company": "Business Development Manager",
+      "source": "linkedin-guest",
       "ok": true,
       "matches": 0,
-      "candidates": 40,
+      "candidates": 0,
       "errors": 0
     },
     {
-      "company": "Greenhouse",
-      "source": "public-search",
+      "company": "Client Partner",
+      "source": "linkedin-guest",
       "ok": true,
       "matches": 0,
-      "candidates": 40,
+      "candidates": 0,
       "errors": 0
     },
     {
-      "company": "Lever",
-      "source": "public-search",
+      "company": "Partnerships Manager",
+      "source": "linkedin-guest",
       "ok": true,
       "matches": 0,
-      "candidates": 40,
+      "candidates": 0,
       "errors": 0
     },
     {
-      "company": "Ashby",
-      "source": "public-search",
+      "company": "Regional Sales Manager",
+      "source": "linkedin-guest",
       "ok": true,
       "matches": 0,
-      "candidates": 40,
+      "candidates": 0,
       "errors": 0
     },
     {
-      "company": "Workday",
-      "source": "public-search",
+      "company": "Sales Director",
+      "source": "linkedin-guest",
       "ok": true,
       "matches": 0,
-      "candidates": 40,
+      "candidates": 0,
       "errors": 0
     },
     {
-      "company": "SmartRecruiters",
-      "source": "public-search",
+      "company": "Enterprise Sales",
+      "source": "linkedin-guest",
       "ok": true,
       "matches": 0,
-      "candidates": 40,
+      "candidates": 0,
+      "errors": 0
+    },
+    {
+      "company": "Sales Executive",
+      "source": "linkedin-guest",
+      "ok": true,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 0
+    },
+    {
+      "company": "Alliances Manager",
+      "source": "linkedin-guest",
+      "ok": true,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 0
+    },
+    {
+      "company": "Account Director",
+      "source": "linkedin-guest",
+      "ok": true,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 0
+    },
+    {
+      "company": "Commercial Manager",
+      "source": "linkedin-guest",
+      "ok": true,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 0
+    },
+    {
+      "company": "Channel Manager",
+      "source": "linkedin-guest",
+      "ok": true,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 0
+    },
+    {
+      "company": "מנהל לקוחות",
+      "source": "linkedin-guest",
+      "ok": true,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 0
+    },
+    {
+      "company": "Country Manager",
+      "source": "linkedin-guest",
+      "ok": true,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 0
+    },
+    {
+      "company": "Head of Sales",
+      "source": "linkedin-guest",
+      "ok": true,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 0
+    },
+    {
+      "company": "מנהל מכירות",
+      "source": "linkedin-guest",
+      "ok": true,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 0
+    },
+    {
+      "company": "מנהל שותפויות",
+      "source": "linkedin-guest",
+      "ok": true,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 0
+    },
+    {
+      "company": "מנהל פיתוח עסקי",
+      "source": "linkedin-guest",
+      "ok": true,
+      "matches": 0,
+      "candidates": 0,
       "errors": 0
     }
   ],
   "summary": {
-    "jobs": 11,
-    "companies": 8,
-    "sources_ok": 32,
+    "jobs": 4,
+    "companies": 1,
+    "sources_ok": 43,
     "sources_failed": 16,
-    "productive_sources": 2,
+    "productive_sources": 1,
     "window_days": 7
   }
 }
