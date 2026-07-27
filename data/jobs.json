@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T10:56:19.545665+00:00",
+  "generated_at": "2026-07-27T17:22:50.180347+00:00",
   "jobs": [
     {
       "id": "gr-3c9bfa17032f142cf5",
@@ -96,13 +96,19 @@
       "matches": 0
     },
     {
+      "company": "Pure Storage",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
       "company": "Elastic",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
     },
     {
-      "company": "GitLab",
+      "company": "Cloudflare",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
@@ -114,19 +120,13 @@
       "matches": 4
     },
     {
-      "company": "Cloudflare",
-      "source": "greenhouse",
-      "ok": true,
-      "matches": 0
-    },
-    {
-      "company": "Pure Storage",
-      "source": "greenhouse",
-      "ok": true,
-      "matches": 0
-    },
-    {
       "company": "Cybereason",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "GitLab",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
@@ -186,7 +186,7 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "DriveNets",
+      "company": "Redis",
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
@@ -198,25 +198,25 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "Redis",
-      "source": "greenhouse",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
       "company": "Yotpo",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
     },
     {
-      "company": "HashiCorp",
+      "company": "DriveNets",
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "company": "Wix",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "HashiCorp",
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
@@ -240,12 +240,6 @@
       "matches": 0
     },
     {
-      "company": "WalkMe",
-      "source": "greenhouse",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
       "company": "Notion",
       "source": "ashby",
       "ok": true,
@@ -262,6 +256,12 @@
       "source": "ashby",
       "ok": true,
       "matches": 0
+    },
+    {
+      "company": "WalkMe",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "company": "Outbrain",
@@ -288,7 +288,7 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "Fiverr",
+      "company": "Guesty",
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
@@ -300,7 +300,7 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "Guesty",
+      "company": "Fiverr",
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
@@ -312,7 +312,15 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "Client Partner",
+      "company": "Strategic Account Manager",
+      "source": "linkedin-guest",
+      "ok": true,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 0
+    },
+    {
+      "company": "Enterprise Account Executive",
       "source": "linkedin-guest",
       "ok": true,
       "matches": 0,
@@ -321,14 +329,6 @@
     },
     {
       "company": "Business Development Manager",
-      "source": "linkedin-guest",
-      "ok": true,
-      "matches": 0,
-      "candidates": 0,
-      "errors": 0
-    },
-    {
-      "company": "Strategic Account Manager",
       "source": "linkedin-guest",
       "ok": true,
       "matches": 0,
@@ -352,7 +352,7 @@
       "errors": 0
     },
     {
-      "company": "Enterprise Account Executive",
+      "company": "Client Partner",
       "source": "linkedin-guest",
       "ok": true,
       "matches": 0,
@@ -368,14 +368,6 @@
       "errors": 0
     },
     {
-      "company": "Sales Executive",
-      "source": "linkedin-guest",
-      "ok": true,
-      "matches": 0,
-      "candidates": 0,
-      "errors": 0
-    },
-    {
       "company": "Enterprise Sales",
       "source": "linkedin-guest",
       "ok": true,
@@ -384,7 +376,7 @@
       "errors": 0
     },
     {
-      "company": "Sales Director",
+      "company": "Sales Executive",
       "source": "linkedin-guest",
       "ok": true,
       "matches": 0,
@@ -400,23 +392,7 @@
       "errors": 0
     },
     {
-      "company": "Alliances Manager",
-      "source": "linkedin-guest",
-      "ok": true,
-      "matches": 0,
-      "candidates": 0,
-      "errors": 0
-    },
-    {
-      "company": "Head of Sales",
-      "source": "linkedin-guest",
-      "ok": true,
-      "matches": 0,
-      "candidates": 0,
-      "errors": 0
-    },
-    {
-      "company": "Country Manager",
+      "company": "Sales Director",
       "source": "linkedin-guest",
       "ok": true,
       "matches": 0,
@@ -432,7 +408,15 @@
       "errors": 0
     },
     {
-      "company": "מנהל לקוחות",
+      "company": "Alliances Manager",
+      "source": "linkedin-guest",
+      "ok": true,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 0
+    },
+    {
+      "company": "Country Manager",
       "source": "linkedin-guest",
       "ok": true,
       "matches": 0,
@@ -450,41 +434,57 @@
     {
       "company": "Commercial Manager",
       "source": "linkedin-guest",
-      "ok": true,
+      "ok": false,
       "matches": 0,
       "candidates": 0,
-      "errors": 0
+      "errors": 1
     },
     {
-      "company": "מנהל שותפויות",
+      "company": "מנהל לקוחות",
       "source": "linkedin-guest",
-      "ok": true,
+      "ok": false,
       "matches": 0,
       "candidates": 0,
-      "errors": 0
-    },
-    {
-      "company": "מנהל פיתוח עסקי",
-      "source": "linkedin-guest",
-      "ok": true,
-      "matches": 0,
-      "candidates": 0,
-      "errors": 0
+      "errors": 1
     },
     {
       "company": "מנהל מכירות",
       "source": "linkedin-guest",
-      "ok": true,
+      "ok": false,
       "matches": 0,
       "candidates": 0,
-      "errors": 0
+      "errors": 1
+    },
+    {
+      "company": "Head of Sales",
+      "source": "linkedin-guest",
+      "ok": false,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 1
+    },
+    {
+      "company": "מנהל פיתוח עסקי",
+      "source": "linkedin-guest",
+      "ok": false,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 1
+    },
+    {
+      "company": "מנהל שותפויות",
+      "source": "linkedin-guest",
+      "ok": false,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 1
     }
   ],
   "summary": {
     "jobs": 4,
     "companies": 1,
-    "sources_ok": 43,
-    "sources_failed": 16,
+    "sources_ok": 37,
+    "sources_failed": 22,
     "productive_sources": 1,
     "window_days": 7
   }
