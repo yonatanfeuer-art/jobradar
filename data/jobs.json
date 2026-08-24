@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T19:16:44.196978+00:00",
+  "generated_at": "2026-08-24T20:58:38.290272+00:00",
   "jobs": [
     {
       "id": "gr-754b83b43e54470609",
@@ -21,7 +21,7 @@
       "source": "Greenhouse",
       "date_confidence": "reported",
       "first_seen_at": "2026-07-27T17:38:33.982974+00:00",
-      "last_seen_at": "2026-08-24T19:16:44.196809+00:00"
+      "last_seen_at": "2026-08-24T20:58:38.290102+00:00"
     },
     {
       "id": "gr-5f80686719467529c2",
@@ -43,7 +43,7 @@
       "source": "Greenhouse",
       "date_confidence": "reported",
       "first_seen_at": "2026-07-27T17:38:33.982974+00:00",
-      "last_seen_at": "2026-08-24T19:16:44.196809+00:00"
+      "last_seen_at": "2026-08-24T20:58:38.290102+00:00"
     },
     {
       "id": "gr-068d5048ee20e7ac42",
@@ -65,7 +65,7 @@
       "source": "Greenhouse",
       "date_confidence": "reported",
       "first_seen_at": "2026-07-27T17:38:33.982974+00:00",
-      "last_seen_at": "2026-08-24T19:16:44.196809+00:00"
+      "last_seen_at": "2026-08-24T20:58:38.290102+00:00"
     },
     {
       "id": "gr-2e7e1da1a1c4f4aa1e",
@@ -87,7 +87,7 @@
       "source": "Greenhouse",
       "date_confidence": "reported",
       "first_seen_at": "2026-08-21T15:55:07.239087+00:00",
-      "last_seen_at": "2026-08-24T19:16:44.196809+00:00"
+      "last_seen_at": "2026-08-24T20:58:38.290102+00:00"
     }
   ],
   "source_status": [
@@ -110,13 +110,7 @@
       "matches": 0
     },
     {
-      "company": "Elastic",
-      "source": "greenhouse",
-      "ok": true,
-      "matches": 0
-    },
-    {
-      "company": "Pure Storage",
+      "company": "Cloudflare",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
@@ -134,25 +128,7 @@
       "matches": 0
     },
     {
-      "company": "Cloudflare",
-      "source": "greenhouse",
-      "ok": true,
-      "matches": 0
-    },
-    {
-      "company": "Melio",
-      "source": "greenhouse",
-      "ok": true,
-      "matches": 0
-    },
-    {
-      "company": "Riskified",
-      "source": "greenhouse",
-      "ok": true,
-      "matches": 0
-    },
-    {
-      "company": "Databricks",
+      "company": "Pure Storage",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
@@ -164,7 +140,37 @@
       "matches": 0
     },
     {
+      "company": "Melio",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
       "company": "Forter",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Riskified",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Elastic",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Databricks",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Yotpo",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
@@ -176,10 +182,16 @@
       "matches": 0
     },
     {
-      "company": "Yotpo",
+      "company": "HiBob",
       "source": "greenhouse",
-      "ok": true,
-      "matches": 0
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "OpenAI",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "company": "Redis",
@@ -194,13 +206,7 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "OpenAI",
-      "source": "greenhouse",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
-      "company": "HiBob",
+      "company": "DriveNets",
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
@@ -212,25 +218,13 @@
       "matches": 0
     },
     {
-      "company": "DriveNets",
-      "source": "greenhouse",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
-      "company": "HashiCorp",
-      "source": "greenhouse",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
       "company": "Navan",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
     },
     {
-      "company": "Wix",
+      "company": "HashiCorp",
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
@@ -242,19 +236,19 @@
       "matches": 0
     },
     {
-      "company": "WalkMe",
+      "company": "Wix",
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "Notion",
+      "company": "Ramp",
       "source": "ashby",
       "ok": true,
       "matches": 0
     },
     {
-      "company": "Ramp",
+      "company": "Notion",
       "source": "ashby",
       "ok": true,
       "matches": 0
@@ -266,7 +260,19 @@
       "matches": 0
     },
     {
+      "company": "WalkMe",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
       "company": "Outbrain",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "BigPanda",
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
@@ -284,31 +290,16 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "Tipalti",
-      "source": "greenhouse",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
       "company": "Fiverr",
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "BigPanda",
+      "company": "Tipalti",
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
-      "company": "Client Partner",
-      "source": "linkedin-guest",
-      "ok": false,
-      "matches": 0,
-      "candidates": 0,
-      "errors": 0,
-      "error": "No cards returned (blocked or markup changed)"
     },
     {
       "company": "Enterprise Account Executive",
@@ -320,7 +311,7 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "Key Account Manager",
+      "company": "Client Partner",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -347,6 +338,15 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
+      "company": "Key Account Manager",
+      "source": "linkedin-guest",
+      "ok": false,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 0,
+      "error": "No cards returned (blocked or markup changed)"
+    },
+    {
       "company": "Business Development Manager",
       "source": "linkedin-guest",
       "ok": false,
@@ -365,7 +365,7 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "Enterprise Sales",
+      "company": "Sales Director",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -374,7 +374,7 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "Sales Director",
+      "company": "Enterprise Sales",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -392,7 +392,7 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "Alliances Manager",
+      "company": "Partnerships Manager",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -401,7 +401,7 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "Partnerships Manager",
+      "company": "Alliances Manager",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -437,7 +437,7 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "מנהל מכירות",
+      "company": "מנהל לקוחות",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -446,7 +446,7 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "מנהל לקוחות",
+      "company": "מנהל מכירות",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
