@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T07:09:52.303089+00:00",
+  "generated_at": "2026-08-26T08:00:44.224993+00:00",
   "jobs": [
     {
       "id": "gr-754b83b43e54470609",
@@ -21,7 +21,7 @@
       "source": "Greenhouse",
       "date_confidence": "reported",
       "first_seen_at": "2026-07-27T17:38:33.982974+00:00",
-      "last_seen_at": "2026-08-26T07:09:52.302926+00:00"
+      "last_seen_at": "2026-08-26T08:00:44.224793+00:00"
     },
     {
       "id": "gr-5f80686719467529c2",
@@ -43,7 +43,7 @@
       "source": "Greenhouse",
       "date_confidence": "reported",
       "first_seen_at": "2026-07-27T17:38:33.982974+00:00",
-      "last_seen_at": "2026-08-26T07:09:52.302926+00:00"
+      "last_seen_at": "2026-08-26T08:00:44.224793+00:00"
     },
     {
       "id": "gr-2e7e1da1a1c4f4aa1e",
@@ -65,18 +65,12 @@
       "source": "Greenhouse",
       "date_confidence": "reported",
       "first_seen_at": "2026-08-21T15:55:07.239087+00:00",
-      "last_seen_at": "2026-08-26T07:09:52.302926+00:00"
+      "last_seen_at": "2026-08-26T08:00:44.224793+00:00"
     }
   ],
   "source_status": [
     {
       "company": "AppsFlyer",
-      "source": "greenhouse",
-      "ok": true,
-      "matches": 0
-    },
-    {
-      "company": "GitLab",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
@@ -88,7 +82,25 @@
       "matches": 0
     },
     {
+      "company": "Cloudflare",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
       "company": "Pure Storage",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "GitLab",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Lightricks",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
@@ -100,25 +112,13 @@
       "matches": 3
     },
     {
-      "company": "Lightricks",
-      "source": "greenhouse",
-      "ok": true,
-      "matches": 0
-    },
-    {
       "company": "Elastic",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
     },
     {
-      "company": "Cloudflare",
-      "source": "greenhouse",
-      "ok": true,
-      "matches": 0
-    },
-    {
-      "company": "Databricks",
+      "company": "Melio",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
@@ -136,13 +136,13 @@
       "matches": 0
     },
     {
-      "company": "Melio",
+      "company": "Forter",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
     },
     {
-      "company": "Forter",
+      "company": "Taboola",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
@@ -154,10 +154,22 @@
       "matches": 0
     },
     {
-      "company": "Taboola",
+      "company": "Databricks",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
+    },
+    {
+      "company": "Gong",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "HiBob",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "company": "Redis",
@@ -172,10 +184,10 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "HiBob",
-      "source": "greenhouse",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "company": "Deel",
+      "source": "ashby",
+      "ok": true,
+      "matches": 0
     },
     {
       "company": "DriveNets",
@@ -190,25 +202,7 @@
       "matches": 0
     },
     {
-      "company": "Gong",
-      "source": "greenhouse",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
-      "company": "Deel",
-      "source": "ashby",
-      "ok": true,
-      "matches": 0
-    },
-    {
-      "company": "Linear",
-      "source": "ashby",
-      "ok": true,
-      "matches": 0
-    },
-    {
-      "company": "Notion",
+      "company": "Ramp",
       "source": "ashby",
       "ok": true,
       "matches": 0
@@ -220,7 +214,13 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "Ramp",
+      "company": "Linear",
+      "source": "ashby",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Notion",
       "source": "ashby",
       "ok": true,
       "matches": 0
@@ -280,7 +280,7 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "Strategic Account Manager",
+      "company": "Account Executive",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -289,7 +289,16 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "Enterprise Account Executive",
+      "company": "Client Partner",
+      "source": "linkedin-guest",
+      "ok": false,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 0,
+      "error": "No cards returned (blocked or markup changed)"
+    },
+    {
+      "company": "Strategic Account Manager",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -307,7 +316,7 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "Account Executive",
+      "company": "Enterprise Account Executive",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -316,7 +325,7 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "Client Partner",
+      "company": "Regional Sales Manager",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -352,15 +361,6 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "Regional Sales Manager",
-      "source": "linkedin-guest",
-      "ok": false,
-      "matches": 0,
-      "candidates": 0,
-      "errors": 0,
-      "error": "No cards returned (blocked or markup changed)"
-    },
-    {
       "company": "Sales Executive",
       "source": "linkedin-guest",
       "ok": false,
@@ -388,15 +388,6 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "Account Director",
-      "source": "linkedin-guest",
-      "ok": false,
-      "matches": 0,
-      "candidates": 0,
-      "errors": 0,
-      "error": "No cards returned (blocked or markup changed)"
-    },
-    {
       "company": "Channel Manager",
       "source": "linkedin-guest",
       "ok": false,
@@ -406,25 +397,7 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "Head of Sales",
-      "source": "linkedin-guest",
-      "ok": false,
-      "matches": 0,
-      "candidates": 0,
-      "errors": 0,
-      "error": "No cards returned (blocked or markup changed)"
-    },
-    {
-      "company": "מנהל מכירות",
-      "source": "linkedin-guest",
-      "ok": false,
-      "matches": 0,
-      "candidates": 0,
-      "errors": 0,
-      "error": "No cards returned (blocked or markup changed)"
-    },
-    {
-      "company": "מנהל לקוחות",
+      "company": "Account Director",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -442,13 +415,40 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
+      "company": "Head of Sales",
+      "source": "linkedin-guest",
+      "ok": false,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 1,
+      "error": null
+    },
+    {
+      "company": "מנהל לקוחות",
+      "source": "linkedin-guest",
+      "ok": false,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 1,
+      "error": null
+    },
+    {
+      "company": "מנהל מכירות",
+      "source": "linkedin-guest",
+      "ok": false,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 1,
+      "error": null
+    },
+    {
       "company": "מנהל שותפויות",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
       "candidates": 0,
-      "errors": 0,
-      "error": "No cards returned (blocked or markup changed)"
+      "errors": 1,
+      "error": null
     }
   ],
   "summary": {
