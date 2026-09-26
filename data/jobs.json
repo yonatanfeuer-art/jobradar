@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T01:35:50.768603+00:00",
+  "generated_at": "2026-09-26T07:44:35.534462+00:00",
   "jobs": [
     {
       "id": "gr-7a94b0ea3b9803f6fe",
@@ -119,7 +119,13 @@
       "matches": 0
     },
     {
-      "company": "Pure Storage",
+      "company": "Similarweb",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "GitLab",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
@@ -131,16 +137,16 @@
       "matches": 3
     },
     {
-      "company": "GitLab",
-      "source": "greenhouse",
-      "ok": true,
-      "matches": 0
-    },
-    {
       "company": "Cloudflare",
       "source": "greenhouse",
       "ok": true,
       "matches": 1
+    },
+    {
+      "company": "Pure Storage",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
     },
     {
       "company": "Lightricks",
@@ -149,7 +155,7 @@
       "matches": 0
     },
     {
-      "company": "Similarweb",
+      "company": "Melio",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
@@ -161,7 +167,13 @@
       "matches": 0
     },
     {
-      "company": "Melio",
+      "company": "Via",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Riskified",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
@@ -179,19 +191,7 @@
       "matches": 0
     },
     {
-      "company": "Riskified",
-      "source": "greenhouse",
-      "ok": true,
-      "matches": 0
-    },
-    {
       "company": "Taboola",
-      "source": "greenhouse",
-      "ok": true,
-      "matches": 0
-    },
-    {
-      "company": "Via",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
@@ -203,7 +203,7 @@
       "matches": 0
     },
     {
-      "company": "Redis",
+      "company": "OpenAI",
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
@@ -221,10 +221,28 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
+      "company": "Redis",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
       "company": "DriveNets",
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "HashiCorp",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "Navan",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
     },
     {
       "company": "Deel",
@@ -233,10 +251,10 @@
       "matches": 0
     },
     {
-      "company": "Navan",
+      "company": "Wix",
       "source": "greenhouse",
-      "ok": true,
-      "matches": 0
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "company": "Ramp",
@@ -251,19 +269,13 @@
       "matches": 0
     },
     {
-      "company": "Wix",
-      "source": "greenhouse",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
-      "company": "Notion",
+      "company": "Vanta",
       "source": "ashby",
       "ok": true,
       "matches": 0
     },
     {
-      "company": "Vanta",
+      "company": "Notion",
       "source": "ashby",
       "ok": true,
       "matches": 0
@@ -299,18 +311,6 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "OpenAI",
-      "source": "greenhouse",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
-      "company": "HashiCorp",
-      "source": "greenhouse",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
       "company": "Fiverr",
       "source": "greenhouse",
       "ok": false,
@@ -321,24 +321,6 @@
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
-      "company": "Account Executive",
-      "source": "linkedin-guest",
-      "ok": false,
-      "matches": 0,
-      "candidates": 0,
-      "errors": 0,
-      "error": "No cards returned (blocked or markup changed)"
-    },
-    {
-      "company": "Enterprise Account Executive",
-      "source": "linkedin-guest",
-      "ok": false,
-      "matches": 0,
-      "candidates": 0,
-      "errors": 0,
-      "error": "No cards returned (blocked or markup changed)"
     },
     {
       "company": "Client Partner",
@@ -360,6 +342,33 @@
     },
     {
       "company": "Key Account Manager",
+      "source": "linkedin-guest",
+      "ok": false,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 0,
+      "error": "No cards returned (blocked or markup changed)"
+    },
+    {
+      "company": "Enterprise Account Executive",
+      "source": "linkedin-guest",
+      "ok": false,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 0,
+      "error": "No cards returned (blocked or markup changed)"
+    },
+    {
+      "company": "Account Executive",
+      "source": "linkedin-guest",
+      "ok": false,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 0,
+      "error": "No cards returned (blocked or markup changed)"
+    },
+    {
+      "company": "Regional Sales Manager",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -395,15 +404,6 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "Regional Sales Manager",
-      "source": "linkedin-guest",
-      "ok": false,
-      "matches": 0,
-      "candidates": 0,
-      "errors": 0,
-      "error": "No cards returned (blocked or markup changed)"
-    },
-    {
       "company": "Sales Executive",
       "source": "linkedin-guest",
       "ok": false,
@@ -423,6 +423,15 @@
     },
     {
       "company": "Alliances Manager",
+      "source": "linkedin-guest",
+      "ok": false,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 0,
+      "error": "No cards returned (blocked or markup changed)"
+    },
+    {
+      "company": "Account Director",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -458,22 +467,13 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "Account Director",
-      "source": "linkedin-guest",
-      "ok": false,
-      "matches": 0,
-      "candidates": 0,
-      "errors": 1,
-      "error": null
-    },
-    {
       "company": "מנהל מכירות",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
       "candidates": 0,
-      "errors": 1,
-      "error": null
+      "errors": 0,
+      "error": "No cards returned (blocked or markup changed)"
     },
     {
       "company": "מנהל פיתוח עסקי",
@@ -481,8 +481,8 @@
       "ok": false,
       "matches": 0,
       "candidates": 0,
-      "errors": 1,
-      "error": null
+      "errors": 0,
+      "error": "No cards returned (blocked or markup changed)"
     },
     {
       "company": "מנהל שותפויות",
@@ -490,8 +490,8 @@
       "ok": false,
       "matches": 0,
       "candidates": 0,
-      "errors": 1,
-      "error": null
+      "errors": 0,
+      "error": "No cards returned (blocked or markup changed)"
     }
   ],
   "summary": {
