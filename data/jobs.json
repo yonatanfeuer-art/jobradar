@@ -1,6 +1,72 @@
 {
-  "generated_at": "2026-10-05T22:39:14.093669+00:00",
+  "generated_at": "2026-10-06T03:00:15.853681+00:00",
   "jobs": [
+    {
+      "id": "gr-754b83b43e54470609",
+      "company": "MongoDB",
+      "title": "Enterprise Account Executive, Growth",
+      "location": "Israel",
+      "posted_at": "2026-10-05T23:30:53+00:00",
+      "url": "https://www.mongodb.com/careers/job/",
+      "score": 99,
+      "israel": true,
+      "tags": [
+        "Enterprise",
+        "Strategic Accounts",
+        "Account Executive",
+        "Key Accounts",
+        "Partnerships"
+      ],
+      "reason": "מכירה וניהול של לקוחות אסטרטגיים · עבודה מול הנהלות ומקבלי החלטות",
+      "source": "Greenhouse",
+      "date_confidence": "reported",
+      "first_seen_at": "2026-07-27T17:38:33.982974+00:00",
+      "last_seen_at": "2026-10-06T03:00:15.853428+00:00"
+    },
+    {
+      "id": "gr-5f80686719467529c2",
+      "company": "MongoDB",
+      "title": "Enterprise Account Executive, Growth (Digital Native)",
+      "location": "Tel Aviv",
+      "posted_at": "2026-10-05T23:30:53+00:00",
+      "url": "https://www.mongodb.com/careers/job/",
+      "score": 99,
+      "israel": true,
+      "tags": [
+        "Enterprise",
+        "Strategic Accounts",
+        "Account Executive",
+        "Key Accounts",
+        "Partnerships"
+      ],
+      "reason": "מכירה וניהול של לקוחות אסטרטגיים · עבודה מול הנהלות ומקבלי החלטות",
+      "source": "Greenhouse",
+      "date_confidence": "reported",
+      "first_seen_at": "2026-07-27T17:38:33.982974+00:00",
+      "last_seen_at": "2026-10-06T03:00:15.853428+00:00"
+    },
+    {
+      "id": "gr-2e7e1da1a1c4f4aa1e",
+      "company": "MongoDB",
+      "title": "Commercial Growth Account Executive - Acquisition",
+      "location": "Tel Aviv",
+      "posted_at": "2026-10-05T23:30:53+00:00",
+      "url": "https://www.mongodb.com/careers/job/",
+      "score": 86,
+      "israel": true,
+      "tags": [
+        "Strategic Accounts",
+        "Account Executive",
+        "Regional",
+        "C-Level",
+        "Technology"
+      ],
+      "reason": "מכירה וניהול של לקוחות אסטרטגיים · עבודה מול הנהלות ומקבלי החלטות",
+      "source": "Greenhouse",
+      "date_confidence": "reported",
+      "first_seen_at": "2026-08-21T15:55:07.239087+00:00",
+      "last_seen_at": "2026-10-06T03:00:15.853428+00:00"
+    },
     {
       "id": "gr-7a94b0ea3b9803f6fe",
       "company": "Cloudflare",
@@ -21,7 +87,7 @@
       "source": "Greenhouse",
       "date_confidence": "reported",
       "first_seen_at": "2026-09-17T13:29:35.456549+00:00",
-      "last_seen_at": "2026-10-05T22:39:14.093480+00:00"
+      "last_seen_at": "2026-10-06T03:00:15.853428+00:00"
     },
     {
       "id": "gr-933b589c9f688055d1",
@@ -43,73 +109,7 @@
       "source": "Greenhouse",
       "date_confidence": "reported",
       "first_seen_at": "2026-10-02T22:58:47.441925+00:00",
-      "last_seen_at": "2026-10-05T22:39:14.093480+00:00"
-    },
-    {
-      "id": "gr-754b83b43e54470609",
-      "company": "MongoDB",
-      "title": "Enterprise Account Executive, Growth",
-      "location": "Israel",
-      "posted_at": "2026-09-24T20:26:44+00:00",
-      "url": "https://www.mongodb.com/careers/job/",
-      "score": 99,
-      "israel": true,
-      "tags": [
-        "Enterprise",
-        "Strategic Accounts",
-        "Account Executive",
-        "Key Accounts",
-        "Partnerships"
-      ],
-      "reason": "מכירה וניהול של לקוחות אסטרטגיים · עבודה מול הנהלות ומקבלי החלטות",
-      "source": "Greenhouse",
-      "date_confidence": "reported",
-      "first_seen_at": "2026-07-27T17:38:33.982974+00:00",
-      "last_seen_at": "2026-10-05T22:39:14.093480+00:00"
-    },
-    {
-      "id": "gr-5f80686719467529c2",
-      "company": "MongoDB",
-      "title": "Enterprise Account Executive, Growth (Digital Native)",
-      "location": "Tel Aviv",
-      "posted_at": "2026-09-24T20:26:44+00:00",
-      "url": "https://www.mongodb.com/careers/job/",
-      "score": 99,
-      "israel": true,
-      "tags": [
-        "Enterprise",
-        "Strategic Accounts",
-        "Account Executive",
-        "Key Accounts",
-        "Partnerships"
-      ],
-      "reason": "מכירה וניהול של לקוחות אסטרטגיים · עבודה מול הנהלות ומקבלי החלטות",
-      "source": "Greenhouse",
-      "date_confidence": "reported",
-      "first_seen_at": "2026-07-27T17:38:33.982974+00:00",
-      "last_seen_at": "2026-10-05T22:39:14.093480+00:00"
-    },
-    {
-      "id": "gr-2e7e1da1a1c4f4aa1e",
-      "company": "MongoDB",
-      "title": "Commercial Growth Account Executive - Acquisition",
-      "location": "Tel Aviv",
-      "posted_at": "2026-09-24T20:26:44+00:00",
-      "url": "https://www.mongodb.com/careers/job/",
-      "score": 86,
-      "israel": true,
-      "tags": [
-        "Strategic Accounts",
-        "Account Executive",
-        "Regional",
-        "C-Level",
-        "Technology"
-      ],
-      "reason": "מכירה וניהול של לקוחות אסטרטגיים · עבודה מול הנהלות ומקבלי החלטות",
-      "source": "Greenhouse",
-      "date_confidence": "reported",
-      "first_seen_at": "2026-08-21T15:55:07.239087+00:00",
-      "last_seen_at": "2026-10-05T22:39:14.093480+00:00"
+      "last_seen_at": "2026-10-06T03:00:15.853428+00:00"
     }
   ],
   "source_status": [
@@ -121,6 +121,12 @@
     },
     {
       "company": "Similarweb",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "GitLab",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
@@ -138,19 +144,19 @@
       "matches": 3
     },
     {
-      "company": "GitLab",
+      "company": "Lightricks",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
     },
     {
-      "company": "Cloudflare",
+      "company": "Elastic",
       "source": "greenhouse",
       "ok": true,
-      "matches": 2
+      "matches": 0
     },
     {
-      "company": "Lightricks",
+      "company": "Via",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
@@ -162,16 +168,10 @@
       "matches": 0
     },
     {
-      "company": "Databricks",
+      "company": "Cloudflare",
       "source": "greenhouse",
       "ok": true,
-      "matches": 0
-    },
-    {
-      "company": "Elastic",
-      "source": "greenhouse",
-      "ok": true,
-      "matches": 0
+      "matches": 2
     },
     {
       "company": "Forter",
@@ -186,13 +186,13 @@
       "matches": 0
     },
     {
-      "company": "Taboola",
+      "company": "Databricks",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
     },
     {
-      "company": "Via",
+      "company": "Taboola",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
@@ -204,19 +204,13 @@
       "matches": 0
     },
     {
-      "company": "OpenAI",
-      "source": "greenhouse",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
       "company": "HiBob",
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "Gong",
+      "company": "OpenAI",
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
@@ -228,16 +222,16 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
+      "company": "Gong",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
       "company": "Deel",
       "source": "ashby",
       "ok": true,
       "matches": 0
-    },
-    {
-      "company": "DriveNets",
-      "source": "greenhouse",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "company": "HashiCorp",
@@ -246,19 +240,19 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "Ramp",
+      "company": "DriveNets",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "Linear",
       "source": "ashby",
       "ok": true,
       "matches": 0
     },
     {
-      "company": "Navan",
-      "source": "greenhouse",
-      "ok": true,
-      "matches": 0
-    },
-    {
-      "company": "Linear",
+      "company": "Ramp",
       "source": "ashby",
       "ok": true,
       "matches": 0
@@ -268,6 +262,12 @@
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "Navan",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
     },
     {
       "company": "Vanta",
@@ -312,19 +312,28 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "Fiverr",
-      "source": "greenhouse",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
       "company": "Tipalti",
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
+      "company": "Fiverr",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
       "company": "Enterprise Account Executive",
+      "source": "linkedin-guest",
+      "ok": false,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 0,
+      "error": "No cards returned (blocked or markup changed)"
+    },
+    {
+      "company": "Key Account Manager",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -351,7 +360,7 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "Key Account Manager",
+      "company": "Client Partner",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -360,7 +369,7 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "Client Partner",
+      "company": "Business Development Manager",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -387,15 +396,6 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "Business Development Manager",
-      "source": "linkedin-guest",
-      "ok": false,
-      "matches": 0,
-      "candidates": 0,
-      "errors": 0,
-      "error": "No cards returned (blocked or markup changed)"
-    },
-    {
       "company": "Enterprise Sales",
       "source": "linkedin-guest",
       "ok": false,
@@ -414,7 +414,7 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "Channel Manager",
+      "company": "Alliances Manager",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -432,16 +432,7 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "Alliances Manager",
-      "source": "linkedin-guest",
-      "ok": false,
-      "matches": 0,
-      "candidates": 0,
-      "errors": 0,
-      "error": "No cards returned (blocked or markup changed)"
-    },
-    {
-      "company": "Account Director",
+      "company": "Channel Manager",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -459,15 +450,6 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "מנהל לקוחות",
-      "source": "linkedin-guest",
-      "ok": false,
-      "matches": 0,
-      "candidates": 0,
-      "errors": 0,
-      "error": "No cards returned (blocked or markup changed)"
-    },
-    {
       "company": "מנהל מכירות",
       "source": "linkedin-guest",
       "ok": false,
@@ -477,13 +459,22 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "מנהל שותפויות",
+      "company": "Account Director",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
       "candidates": 0,
-      "errors": 0,
-      "error": "No cards returned (blocked or markup changed)"
+      "errors": 1,
+      "error": null
+    },
+    {
+      "company": "מנהל לקוחות",
+      "source": "linkedin-guest",
+      "ok": false,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 1,
+      "error": null
     },
     {
       "company": "מנהל פיתוח עסקי",
@@ -491,8 +482,17 @@
       "ok": false,
       "matches": 0,
       "candidates": 0,
-      "errors": 0,
-      "error": "No cards returned (blocked or markup changed)"
+      "errors": 1,
+      "error": null
+    },
+    {
+      "company": "מנהל שותפויות",
+      "source": "linkedin-guest",
+      "ok": false,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 1,
+      "error": null
     }
   ],
   "summary": {
