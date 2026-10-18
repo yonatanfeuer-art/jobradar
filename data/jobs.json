@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-10-18T05:55:58.481633+00:00",
+  "generated_at": "2026-10-18T11:09:17.491341+00:00",
   "jobs": [
+    {
+      "id": "gr-197f9110157ee9cc69",
+      "company": "Riskified",
+      "title": "Partnership Manager",
+      "location": "Tel Aviv",
+      "posted_at": "2026-10-18T10:13:41+00:00",
+      "url": "https://www.riskified.com/careers/job-description/",
+      "score": 58,
+      "israel": true,
+      "tags": [
+        "Partnerships",
+        "Regional",
+        "Technology"
+      ],
+      "reason": "עבודה מול הנהלות ומקבלי החלטות",
+      "source": "Greenhouse",
+      "date_confidence": "reported",
+      "first_seen_at": "2026-10-15T19:10:11.460366+00:00",
+      "last_seen_at": "2026-10-18T11:09:17.491146+00:00"
+    },
     {
       "id": "gr-754b83b43e54470609",
       "company": "MongoDB",
@@ -21,7 +41,7 @@
       "source": "Greenhouse",
       "date_confidence": "reported",
       "first_seen_at": "2026-07-27T17:38:33.982974+00:00",
-      "last_seen_at": "2026-10-18T05:55:58.481458+00:00"
+      "last_seen_at": "2026-10-18T11:09:17.491146+00:00"
     },
     {
       "id": "gr-5f80686719467529c2",
@@ -43,7 +63,7 @@
       "source": "Greenhouse",
       "date_confidence": "reported",
       "first_seen_at": "2026-07-27T17:38:33.982974+00:00",
-      "last_seen_at": "2026-10-18T05:55:58.481458+00:00"
+      "last_seen_at": "2026-10-18T11:09:17.491146+00:00"
     },
     {
       "id": "gr-2e7e1da1a1c4f4aa1e",
@@ -65,29 +85,7 @@
       "source": "Greenhouse",
       "date_confidence": "reported",
       "first_seen_at": "2026-08-21T15:55:07.239087+00:00",
-      "last_seen_at": "2026-10-18T05:55:58.481458+00:00"
-    },
-    {
-      "id": "gr-197f9110157ee9cc69",
-      "company": "Riskified",
-      "title": "Partnership Manager",
-      "location": "Tel Aviv",
-      "posted_at": "2026-10-15T18:17:17+00:00",
-      "url": "https://www.riskified.com/careers/job-description/",
-      "score": 85,
-      "israel": true,
-      "tags": [
-        "Strategic Accounts",
-        "Business Development",
-        "Partnerships",
-        "Regional",
-        "Technology"
-      ],
-      "reason": "מכירה וניהול של לקוחות אסטרטגיים · עסקאות מורכבות וריבוי בעלי עניין",
-      "source": "Greenhouse",
-      "date_confidence": "reported",
-      "first_seen_at": "2026-10-15T19:10:11.460366+00:00",
-      "last_seen_at": "2026-10-18T05:55:58.481458+00:00"
+      "last_seen_at": "2026-10-18T11:09:17.491146+00:00"
     },
     {
       "id": "gr-7a94b0ea3b9803f6fe",
@@ -109,7 +107,7 @@
       "source": "Greenhouse",
       "date_confidence": "reported",
       "first_seen_at": "2026-09-17T13:29:35.456549+00:00",
-      "last_seen_at": "2026-10-18T05:55:58.481458+00:00"
+      "last_seen_at": "2026-10-18T11:09:17.491146+00:00"
     },
     {
       "id": "gr-8d62d2c4db5e287fa6",
@@ -131,7 +129,7 @@
       "source": "Greenhouse",
       "date_confidence": "reported",
       "first_seen_at": "2026-10-09T16:14:41.723891+00:00",
-      "last_seen_at": "2026-10-18T05:55:58.481458+00:00"
+      "last_seen_at": "2026-10-18T11:09:17.491146+00:00"
     },
     {
       "id": "gr-933b589c9f688055d1",
@@ -153,7 +151,7 @@
       "source": "Greenhouse",
       "date_confidence": "reported",
       "first_seen_at": "2026-10-02T22:58:47.441925+00:00",
-      "last_seen_at": "2026-10-18T05:55:58.481458+00:00"
+      "last_seen_at": "2026-10-18T11:09:17.491146+00:00"
     },
     {
       "id": "gr-265c825f5fdae75701",
@@ -175,7 +173,7 @@
       "source": "Greenhouse",
       "date_confidence": "reported",
       "first_seen_at": "2026-10-08T16:30:24.239284+00:00",
-      "last_seen_at": "2026-10-18T05:55:58.481458+00:00"
+      "last_seen_at": "2026-10-18T11:09:17.491146+00:00"
     },
     {
       "id": "gr-e863fd6667e0081a88",
@@ -196,16 +194,10 @@
       "source": "Greenhouse",
       "date_confidence": "reported",
       "first_seen_at": "2026-10-07T16:31:05.705567+00:00",
-      "last_seen_at": "2026-10-18T05:55:58.481458+00:00"
+      "last_seen_at": "2026-10-18T11:09:17.491146+00:00"
     }
   ],
   "source_status": [
-    {
-      "company": "Similarweb",
-      "source": "greenhouse",
-      "ok": true,
-      "matches": 0
-    },
     {
       "company": "AppsFlyer",
       "source": "greenhouse",
@@ -213,7 +205,19 @@
       "matches": 1
     },
     {
+      "company": "Similarweb",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
       "company": "GitLab",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Pure Storage",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
@@ -225,13 +229,13 @@
       "matches": 3
     },
     {
-      "company": "Pure Storage",
+      "company": "Lightricks",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
     },
     {
-      "company": "Lightricks",
+      "company": "Elastic",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
@@ -255,6 +259,12 @@
       "matches": 0
     },
     {
+      "company": "Cloudflare",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 3
+    },
+    {
       "company": "Forter",
       "source": "greenhouse",
       "ok": true,
@@ -267,19 +277,7 @@
       "matches": 1
     },
     {
-      "company": "Cloudflare",
-      "source": "greenhouse",
-      "ok": true,
-      "matches": 3
-    },
-    {
       "company": "Taboola",
-      "source": "greenhouse",
-      "ok": true,
-      "matches": 0
-    },
-    {
-      "company": "Elastic",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
@@ -289,18 +287,6 @@
       "source": "greenhouse",
       "ok": true,
       "matches": 0
-    },
-    {
-      "company": "HiBob",
-      "source": "greenhouse",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
-      "company": "OpenAI",
-      "source": "greenhouse",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "company": "Redis",
@@ -315,7 +301,13 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "DriveNets",
+      "company": "OpenAI",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "HiBob",
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
@@ -327,20 +319,14 @@
       "matches": 0
     },
     {
+      "company": "DriveNets",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
       "company": "Navan",
       "source": "greenhouse",
-      "ok": true,
-      "matches": 0
-    },
-    {
-      "company": "Notion",
-      "source": "ashby",
-      "ok": true,
-      "matches": 0
-    },
-    {
-      "company": "Linear",
-      "source": "ashby",
       "ok": true,
       "matches": 0
     },
@@ -357,16 +343,28 @@
       "matches": 0
     },
     {
-      "company": "Wix",
-      "source": "greenhouse",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "company": "Linear",
+      "source": "ashby",
+      "ok": true,
+      "matches": 0
     },
     {
       "company": "Vanta",
       "source": "ashby",
       "ok": true,
       "matches": 0
+    },
+    {
+      "company": "Notion",
+      "source": "ashby",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Wix",
+      "source": "greenhouse",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "company": "WalkMe",
@@ -411,6 +409,15 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
+      "company": "Strategic Account Manager",
+      "source": "linkedin-guest",
+      "ok": false,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 0,
+      "error": "No cards returned (blocked or markup changed)"
+    },
+    {
       "company": "Key Account Manager",
       "source": "linkedin-guest",
       "ok": false,
@@ -420,7 +427,7 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "Strategic Account Manager",
+      "company": "Account Executive",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -447,7 +454,7 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "Business Development Manager",
+      "company": "Sales Director",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -456,7 +463,7 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "Sales Director",
+      "company": "Business Development Manager",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -492,6 +499,15 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
+      "company": "Alliances Manager",
+      "source": "linkedin-guest",
+      "ok": false,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 0,
+      "error": "No cards returned (blocked or markup changed)"
+    },
+    {
       "company": "Partnerships Manager",
       "source": "linkedin-guest",
       "ok": false,
@@ -502,15 +518,6 @@
     },
     {
       "company": "Channel Manager",
-      "source": "linkedin-guest",
-      "ok": false,
-      "matches": 0,
-      "candidates": 0,
-      "errors": 0,
-      "error": "No cards returned (blocked or markup changed)"
-    },
-    {
-      "company": "Account Executive",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -546,15 +553,6 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "מנהל פיתוח עסקי",
-      "source": "linkedin-guest",
-      "ok": false,
-      "matches": 0,
-      "candidates": 0,
-      "errors": 0,
-      "error": "No cards returned (blocked or markup changed)"
-    },
-    {
       "company": "מנהל מכירות",
       "source": "linkedin-guest",
       "ok": false,
@@ -564,7 +562,7 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "מנהל שותפויות",
+      "company": "מנהל פיתוח עסקי",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -573,7 +571,7 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "Alliances Manager",
+      "company": "מנהל שותפויות",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
