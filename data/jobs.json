@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-18T14:01:29.717192+00:00",
+  "generated_at": "2026-11-18T21:58:36.209515+00:00",
   "jobs": [
     {
       "id": "gr-265c825f5fdae75701",
       "company": "Databricks",
       "title": "Strategic Core Account Executive",
       "location": "Herzliya, Israel",
-      "posted_at": "2026-11-17T22:59:38+00:00",
+      "posted_at": "2026-11-18T15:44:34+00:00",
       "url": "https://databricks.com/company/careers/open-positions/job",
       "score": 99,
       "israel": true,
@@ -21,7 +21,29 @@
       "source": "Greenhouse",
       "date_confidence": "reported",
       "first_seen_at": "2026-11-13T22:39:18.157205+00:00",
-      "last_seen_at": "2026-11-18T14:01:29.717004+00:00"
+      "last_seen_at": "2026-11-18T21:58:36.209291+00:00"
+    },
+    {
+      "id": "gr-933b589c9f688055d1",
+      "company": "Cloudflare",
+      "title": "Territory Account Executive, Israel",
+      "location": "Hybrid",
+      "posted_at": "2026-11-18T14:56:57+00:00",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8155990",
+      "score": 99,
+      "israel": true,
+      "tags": [
+        "Enterprise",
+        "Strategic Accounts",
+        "Account Executive",
+        "Leadership",
+        "Regional"
+      ],
+      "reason": "מכירה וניהול של לקוחות אסטרטגיים · עבודה מול הנהלות ומקבלי החלטות",
+      "source": "Greenhouse",
+      "date_confidence": "reported",
+      "first_seen_at": "2026-10-02T22:58:47.441925+00:00",
+      "last_seen_at": "2026-11-18T21:58:36.209291+00:00"
     },
     {
       "id": "gr-754b83b43e54470609",
@@ -43,7 +65,7 @@
       "source": "Greenhouse",
       "date_confidence": "reported",
       "first_seen_at": "2026-07-27T17:38:33.982974+00:00",
-      "last_seen_at": "2026-11-18T14:01:29.717004+00:00"
+      "last_seen_at": "2026-11-18T21:58:36.209291+00:00"
     },
     {
       "id": "gr-5f80686719467529c2",
@@ -65,7 +87,7 @@
       "source": "Greenhouse",
       "date_confidence": "reported",
       "first_seen_at": "2026-07-27T17:38:33.982974+00:00",
-      "last_seen_at": "2026-11-18T14:01:29.717004+00:00"
+      "last_seen_at": "2026-11-18T21:58:36.209291+00:00"
     },
     {
       "id": "gr-2e7e1da1a1c4f4aa1e",
@@ -87,7 +109,7 @@
       "source": "Greenhouse",
       "date_confidence": "reported",
       "first_seen_at": "2026-08-21T15:55:07.239087+00:00",
-      "last_seen_at": "2026-11-18T14:01:29.717004+00:00"
+      "last_seen_at": "2026-11-18T21:58:36.209291+00:00"
     },
     {
       "id": "gr-7a94b0ea3b9803f6fe",
@@ -109,7 +131,7 @@
       "source": "Greenhouse",
       "date_confidence": "reported",
       "first_seen_at": "2026-09-17T13:29:35.456549+00:00",
-      "last_seen_at": "2026-11-18T14:01:29.717004+00:00"
+      "last_seen_at": "2026-11-18T21:58:36.209291+00:00"
     },
     {
       "id": "gr-8d62d2c4db5e287fa6",
@@ -131,29 +153,7 @@
       "source": "Greenhouse",
       "date_confidence": "reported",
       "first_seen_at": "2026-10-09T16:14:41.723891+00:00",
-      "last_seen_at": "2026-11-18T14:01:29.717004+00:00"
-    },
-    {
-      "id": "gr-933b589c9f688055d1",
-      "company": "Cloudflare",
-      "title": "Senior Territory Account Executive, Israel - Digital Natives",
-      "location": "Hybrid",
-      "posted_at": "2026-11-10T00:03:42+00:00",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/8155990",
-      "score": 99,
-      "israel": true,
-      "tags": [
-        "Enterprise",
-        "Strategic Accounts",
-        "Account Executive",
-        "Leadership",
-        "Regional"
-      ],
-      "reason": "מכירה וניהול של לקוחות אסטרטגיים · עבודה מול הנהלות ומקבלי החלטות",
-      "source": "Greenhouse",
-      "date_confidence": "reported",
-      "first_seen_at": "2026-10-02T22:58:47.441925+00:00",
-      "last_seen_at": "2026-11-18T14:01:29.717004+00:00"
+      "last_seen_at": "2026-11-18T21:58:36.209291+00:00"
     }
   ],
   "source_status": [
@@ -170,13 +170,13 @@
       "matches": 0
     },
     {
-      "company": "GitLab",
+      "company": "Pure Storage",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
     },
     {
-      "company": "Pure Storage",
+      "company": "GitLab",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
@@ -188,19 +188,7 @@
       "matches": 3
     },
     {
-      "company": "Cloudflare",
-      "source": "greenhouse",
-      "ok": true,
-      "matches": 3
-    },
-    {
       "company": "Lightricks",
-      "source": "greenhouse",
-      "ok": true,
-      "matches": 0
-    },
-    {
-      "company": "Melio",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
@@ -212,19 +200,31 @@
       "matches": 0
     },
     {
+      "company": "Melio",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
+      "company": "Via",
+      "source": "greenhouse",
+      "ok": true,
+      "matches": 0
+    },
+    {
       "company": "Forter",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
     },
     {
-      "company": "Databricks",
+      "company": "Cloudflare",
       "source": "greenhouse",
       "ok": true,
-      "matches": 1
+      "matches": 3
     },
     {
-      "company": "Via",
+      "company": "Riskified",
       "source": "greenhouse",
       "ok": true,
       "matches": 0
@@ -236,10 +236,10 @@
       "matches": 0
     },
     {
-      "company": "Riskified",
+      "company": "Databricks",
       "source": "greenhouse",
       "ok": true,
-      "matches": 0
+      "matches": 1
     },
     {
       "company": "Yotpo",
@@ -254,7 +254,7 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "HiBob",
+      "company": "Gong",
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
@@ -266,7 +266,7 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "Gong",
+      "company": "HiBob",
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
@@ -278,10 +278,22 @@
       "matches": 0
     },
     {
+      "company": "Ramp",
+      "source": "ashby",
+      "ok": true,
+      "matches": 0
+    },
+    {
       "company": "DriveNets",
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "company": "Notion",
+      "source": "ashby",
+      "ok": true,
+      "matches": 0
     },
     {
       "company": "HashiCorp",
@@ -296,7 +308,7 @@
       "matches": 0
     },
     {
-      "company": "Ramp",
+      "company": "Linear",
       "source": "ashby",
       "ok": true,
       "matches": 0
@@ -308,31 +320,13 @@
       "matches": 0
     },
     {
-      "company": "Linear",
-      "source": "ashby",
-      "ok": true,
-      "matches": 0
-    },
-    {
       "company": "Wix",
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "Notion",
-      "source": "ashby",
-      "ok": true,
-      "matches": 0
-    },
-    {
       "company": "WalkMe",
-      "source": "greenhouse",
-      "ok": false,
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
-      "company": "BigPanda",
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
@@ -344,7 +338,7 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "Papaya Global",
+      "company": "BigPanda",
       "source": "greenhouse",
       "ok": false,
       "error": "HTTPError: HTTP Error 404: Not Found"
@@ -368,13 +362,10 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
-      "company": "Strategic Account Manager",
-      "source": "linkedin-guest",
+      "company": "Papaya Global",
+      "source": "greenhouse",
       "ok": false,
-      "matches": 0,
-      "candidates": 0,
-      "errors": 0,
-      "error": "No cards returned (blocked or markup changed)"
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "company": "Key Account Manager",
@@ -404,16 +395,7 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "Account Executive",
-      "source": "linkedin-guest",
-      "ok": false,
-      "matches": 0,
-      "candidates": 0,
-      "errors": 0,
-      "error": "No cards returned (blocked or markup changed)"
-    },
-    {
-      "company": "Regional Sales Manager",
+      "company": "Strategic Account Manager",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -431,16 +413,7 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "Enterprise Sales",
-      "source": "linkedin-guest",
-      "ok": false,
-      "matches": 0,
-      "candidates": 0,
-      "errors": 0,
-      "error": "No cards returned (blocked or markup changed)"
-    },
-    {
-      "company": "Sales Executive",
+      "company": "Regional Sales Manager",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -458,16 +431,7 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "Channel Manager",
-      "source": "linkedin-guest",
-      "ok": false,
-      "matches": 0,
-      "candidates": 0,
-      "errors": 0,
-      "error": "No cards returned (blocked or markup changed)"
-    },
-    {
-      "company": "Alliances Manager",
+      "company": "Enterprise Sales",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -485,7 +449,7 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "מנהל מכירות",
+      "company": "Sales Executive",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -494,25 +458,7 @@
       "error": "No cards returned (blocked or markup changed)"
     },
     {
-      "company": "מנהל לקוחות",
-      "source": "linkedin-guest",
-      "ok": false,
-      "matches": 0,
-      "candidates": 0,
-      "errors": 0,
-      "error": "No cards returned (blocked or markup changed)"
-    },
-    {
-      "company": "מנהל פיתוח עסקי",
-      "source": "linkedin-guest",
-      "ok": false,
-      "matches": 0,
-      "candidates": 0,
-      "errors": 0,
-      "error": "No cards returned (blocked or markup changed)"
-    },
-    {
-      "company": "מנהל שותפויות",
+      "company": "Channel Manager",
       "source": "linkedin-guest",
       "ok": false,
       "matches": 0,
@@ -537,6 +483,60 @@
       "candidates": 0,
       "errors": 0,
       "error": "No cards returned (blocked or markup changed)"
+    },
+    {
+      "company": "מנהל מכירות",
+      "source": "linkedin-guest",
+      "ok": false,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 0,
+      "error": "No cards returned (blocked or markup changed)"
+    },
+    {
+      "company": "Account Executive",
+      "source": "linkedin-guest",
+      "ok": false,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 1,
+      "error": null
+    },
+    {
+      "company": "Alliances Manager",
+      "source": "linkedin-guest",
+      "ok": false,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 1,
+      "error": null
+    },
+    {
+      "company": "מנהל לקוחות",
+      "source": "linkedin-guest",
+      "ok": false,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 1,
+      "error": null
+    },
+    {
+      "company": "מנהל פיתוח עסקי",
+      "source": "linkedin-guest",
+      "ok": false,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 1,
+      "error": null
+    },
+    {
+      "company": "מנהל שותפויות",
+      "source": "linkedin-guest",
+      "ok": false,
+      "matches": 0,
+      "candidates": 0,
+      "errors": 1,
+      "error": null
     }
   ],
   "summary": {
